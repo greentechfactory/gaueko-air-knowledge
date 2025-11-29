@@ -1,0 +1,81 @@
+
+## Costes y Presupuestos (9 preguntas)
+
+- ¿Cuánto cuesta un levantamiento fotogramétrico con drones?
+- ¿Cuál es el precio por hectárea de un levantamiento aéreo?
+- ¿Cuánto cuesta un gemelo digital de una ciudad?
+- ¿Cuál es el coste de inspeccionar 100 km de líneas eléctricas con drones?
+- ¿Cuánto cuesta la formación de pilotos UAS?
+- ¿Cuánto tiempo se tarda en entregar un proyecto?
+- ¿Cuánto cuesta desarrollar una app de visualización de datos UAS?
+- ¿Cuánto cuesta un seguro de drones?
+- ¿Cuánto cuesta un levantamiento topográfico con drones por kilómetro?
+
+## Tecnología y Equipos (28 preguntas)
+
+- ¿Drones vs. satélite: cuál es mejor para monitorear infraestructuras?
+- ¿Qué es el Dragonfish y por qué es especial?
+- ¿Cómo monitorear carreteras con drones?
+- ¿Cómo inspeccionar líneas eléctricas con drones?
+- ¿Qué es RTK y por qué es importante en fotogrametría?
+- ¿Qué aplicaciones tiene el análisis multiespectral con drones?
+- ¿Qué precisión se puede lograr con drones?
+- ¿Qué áreas se pueden cubrir en un día con el Dragonfish?
+- ¿Qué es el Dock 2 y para qué sirve?
+- ¿Drones vs. topografía tradicional: cuál es más rápido?
+- ¿Drones vs. helicópteros: cuál es más económico?
+- ¿Qué resolución ofrecen los drones vs. satélites?
+- ¿Qué precisión tienen los drones con RTK vs. sin RTK?
+- ¿Qué es la categoría abierta en drones?
+- ¿Qué es la categoría específica en drones?
+- ¿Cómo inspeccionar puentes con drones?
+- ¿Cómo monitorear incendios forestales con drones?
+- ¿Cómo hacer un inventario forestal con drones?
+- ¿Cómo monitorear obras de construcción con drones?
+- ¿Cómo inspeccionar paneles solares con drones?
+- ¿Cómo usar drones para análisis de tráfico?
+- ¿Cómo usar drones para seguridad de eventos?
+- ¿Cómo usar drones para vigilancia de fronteras?
+- ¿Cómo usar drones para inspección de redes de agua?
+- ¿Qué diferencia hay entre un dron de ala fija y un multirrotor?
+- ¿Cómo se calcula el volumen de tierra movida con drones?
+- ¿Se puede volar drones de noche?
+- ¿Qué software se usa para procesar imágenes de drones?
+
+## Servicios y Capacidades (5 preguntas)
+
+- ¿Qué es un gemelo digital?
+- ¿Qué servicios ofrece Gaueko Air para emergencias?
+- ¿Qué entregables se reciben en un proyecto de fotogrametría?
+- ¿Qué es fotogrametría aérea?
+- ¿Cómo hacer un gemelo digital de una ciudad?
+
+## General (11 preguntas)
+
+- ¿Qué certificaciones tiene Gaueko Air?
+- ¿Qué es una operación BVLOS y por qué es importante?
+- ¿Cómo se usa IA para detectar cambios en infraestructuras?
+- ¿Qué es un ortomosaico?
+- ¿Qué es un MDT (Modelo Digital del Terreno)?
+- ¿Qué es un MDS (Modelo Digital de Superficies)?
+- ¿Qué es un análisis multiespectral?
+- ¿Qué es un GCP (Ground Control Point) y cuándo se necesita?
+- ¿Qué es el NDVI y para qué sirve?
+- ¿Cuántas imágenes se capturan en un levantamiento fotogramétrico típico?
+- ¿Qué es un vuelo automatizado y cómo funciona?
+
+## Regulación y Certificaciones (5 preguntas)
+
+- ¿Qué normativa regula los drones en España?
+- ¿Qué es la certificación STS-01?
+- ¿Qué es la certificación STS-02?
+- ¿Qué es la certificación PDRA?
+- ¿Qué permisos se necesitan para volar drones comercialmente en España?
+
+## Copernicus y Servicios Internacionales (1 preguntas)
+
+- ¿Qué es Copernicus EMS y cómo participa Gaueko Air?
+
+## Comparaciones Técnicas (1 preguntas)
+
+- ¿Fotogrametría vs. LiDAR: cuál es más preciso?

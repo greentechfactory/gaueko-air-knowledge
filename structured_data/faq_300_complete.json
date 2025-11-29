@@ -1,0 +1,2406 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento fotogramétrico con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El coste depende de la extensión, resolución y complejidad. Precio base: 1.000€/jornada (8-12h). Proyectos con IA, apps o visores GIS tienen coste adicional. Referencia: 65 km de la N135 con seguimiento de tráfico 2 meses + IA = 12.000€. Presupuestos personalizados sin compromiso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio por hectárea de un levantamiento aéreo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El precio por hectárea varía según resolución y área total. Rangos orientativos: Áreas pequeñas (<10 ha): 100-200€/ha. Áreas medianas (10-100 ha): 50-100€/ha. Áreas grandes (100-1000 ha): 20-50€/ha. Áreas muy grandes (>1000 ha): 10-30€/ha. Incluye vuelo, procesamiento y entregables estándar (ortomosaico, MDT, MDS). Descuentos por volumen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un gemelo digital de una ciudad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El coste de un gemelo digital urbano depende del tamaño y nivel de detalle. Estimaciones: Ciudad pequeña (1-5 km²): 15.000-50.000€. Ciudad mediana (5-20 km²): 50.000-200.000€. Ciudad grande (20-100 km²): 200.000-1.000.000€. Incluye: levantamiento aéreo con RTK, procesamiento de imágenes, modelo 3D texturizado, visor web interactivo, integración con GIS municipal. Actualizaciones anuales: 20-30% del coste inicial."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de inspeccionar 100 km de líneas eléctricas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de 100 km de líneas eléctricas: 15.000-30.000€. Incluye: vuelo automatizado siguiendo el trazado, cámara térmica (640x512px) para detección de anomalías, cámara zoom (hasta 160x) para inspección de detalles, análisis con IA de puntos calientes y defectos, reporte geolocalizado de cada anomalía con prioridad. Tiempo de ejecución: 5-7 días. Ahorro: 50-70% vs. helicópteros, sin cortes de suministro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta la formación de pilotos UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaueko Air es entidad reconocida por AESA. Precio: 125€/persona por módulo de 3h. Cursos: STS-01 (VLOS entorno poblado), STS-02 (BVLOS entorno poco poblado), STS-ES-01NE (VLOS España NO EASA), STS-ES-02NE (BVLOS observadores NO EASA), Radiofonista UAS, Operaciones de Emergencia, SMS. Formación presencial (Navarra) y online (teoría). Descuentos grupos (5+ personas) y empresas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Drones vs. satélite: cuál es mejor para monitorear infraestructuras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drones y satélites son complementarios. RESOLUCIÓN: Drones <2 cm/px, Satélites 30 cm/px (comercial) a 3 m/px (gratuito). ACTUALIZACIÓN: Drones bajo demanda (mismo día), Satélites cada 5-16 días. COSTE: Drones 1.000€/día (<100 km²), Satélites gratuito (Copernicus) o $10-50/km². NUBES: Drones vuelan bajo nubes, Satélites bloqueados. ÁREA: Drones eficientes hasta 500 km², Satélites ilimitado. Gaueko Air integra ambas fuentes: satélites para monitoreo continuo, drones para actualizaciones de alta precisión."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un gemelo digital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un gemelo digital es una réplica virtual exacta de un objeto físico, infraestructura o territorio creada mediante fotogrametría aérea. Permite: (1) Visualizar infraestructuras sin estar físicamente presentes, (2) Realizar mediciones precisas (distancias, volúmenes, áreas), (3) Detectar cambios comparando versiones en el tiempo, (4) Planificar intervenciones y simular escenarios, (5) Integrar con GIS y BI para análisis avanzados. Gaueko Air crea gemelos con precisión <2 cm/px usando RTK dual, actualizables bajo demanda y con análisis automático de cambios mediante IA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué certificaciones tiene Gaueko Air?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaueko Air está certificada por AESA desde 2019. Certificaciones: (1) Operador UAS EASA: Categoría Abierta (A1, A2, A3) y Categoría Específica (STS-01, STS-02, SORA, PDRA), (2) Operador UAS NO EASA: STS-ES-01NE, STS-ES-02NE, (3) Entidad de Formación Reconocida por AESA: Autorizada para impartir formación en todos los escenarios estándar, Radiofonista UAS y Operaciones de Emergencia. Proveedor de servicios UAS para Copernicus EMS en España y Portugal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Dragonfish y por qué es especial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Autel Dragonfish Standard L20T es un dron de ala fija VTOL (despegue/aterrizaje vertical) con capacidades excepcionales: (1) Autonomía 120 minutos (vs. 30-40 min multirrotores), (2) Alcance 30 km por vuelo (vs. 5-10 km), (3) RTK dual para precisión <2 cm/px, (4) Resistencia a vientos 12 m/s, (5) Vuelo en lluvia ligera. Es el único dron de este tipo operado por una empresa española para servicios comerciales, permitiendo levantamientos de carreteras, líneas eléctricas y zonas forestales de forma mucho más eficiente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo se tarda en entregar un proyecto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Proyectos sencillos: mínimo 1 semana. Proyectos complejos (IA, apps, visores GIS): hasta 30 días. Proceso típico: (1) Planificación y permisos (1-3 días), (2) Captura en campo (1-2 días), (3) Procesamiento de imágenes y modelos 3D (3-7 días), (4) Análisis y entregables (2-5 días), (5) Revisión final (1-2 días). Servicio urgente (24-48h) para emergencias con coste adicional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo monitorear carreteras con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monitoreo de carreteras con drones: (1) PLANIFICACIÓN: Vuelo automatizado siguiendo el trazado con waypoints GPS. (2) CAPTURA: Dragonfish cubre 50-80 km/día con resolución <2 cm/px. (3) PROCESAMIENTO: Ortomosaico georeferenciado + modelo 3D del corredor. (4) ANÁLISIS: IA detecta baches, grietas, deformaciones, vegetación invasora, señalización dañada. (5) REPORTE: Geolocalización exacta de cada anomalía con prioridad de intervención. APLICACIONES: Inventario de estado, planificación de mantenimiento, seguimiento de obras, análisis de tráfico. Caso real: N135 Navarra (65 km) con seguimiento tráfico 2 meses = 12.000€."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar líneas eléctricas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de líneas eléctricas: (1) PLANIFICACIÓN: Vuelo automatizado siguiendo trazado. (2) CAPTURA: Cámara térmica (640x512px) detecta puntos calientes (conexiones defectuosas, aisladores dañados). Cámara zoom (hasta 160x) inspecciona torres, aisladores, conductores. (3) ANÁLISIS: IA detecta anomalías térmicas, corrosión, vegetación cercana, nidos de aves. (4) REPORTE: Geolocalización exacta con fotos, temperatura y prioridad. VENTAJAS: 50-70% más económico que helicópteros, sin riesgo para trabajadores, sin cortes de suministro, inspección completa en días vs. semanas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué servicios ofrece Gaueko Air para emergencias?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Servicios de emergencia: (1) BÚSQUEDA Y RESCATE (SAR): Localización de personas con cámaras térmicas y RGB. Experiencia: inundaciones nov-dic 2021 (40+ horas vuelo, 300+ km, 3000+ ha). (2) INCENDIOS FORESTALES: Prevención, monitorización en tiempo real, análisis post-incendio. Detección de focos con térmica, evaluación de daños. (3) INUNDACIONES: Evaluación rápida de áreas afectadas, identificación de rutas de evacuación. (4) ACCIDENTES: Documentación de escenas para investigación forense. Proveedor de Copernicus EMS para España y Portugal, garantizando respuesta en <24h."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación BVLOS y por qué es importante?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BVLOS (Beyond Visual Line of Sight) significa operar un dron más allá de la línea de visión del piloto, a diferencia de VLOS donde el piloto debe mantener contacto visual directo. Importancia: (1) Permite cubrir grandes extensiones (30+ km) en un solo vuelo, (2) Reduce costes al eliminar desplazamientos del equipo, (3) Aumenta eficiencia en inspección de infraestructuras lineales (carreteras, líneas eléctricas, ferrocarriles), (4) Esencial para emergencias donde el tiempo es crítico. Gaueko Air está autorizada por AESA para operaciones BVLOS bajo escenarios PDRA y STS-02."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué normativa regula los drones en España?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marco legal: (1) REGLAMENTO (UE) 2019/947: Regula operaciones UAS en Europa. Define 3 categorías: Abierta (bajo riesgo), Específica (riesgo medio), Certificada (alto riesgo). (2) REGLAMENTO (UE) 2019/945: Requisitos de diseño y fabricación de drones. Clases C0 a C6. (3) REAL DECRETO 1036/2017: Normativa española pre-europea, aún aplicable para operaciones NO EASA (drones >25 kg). (4) REAL DECRETO 517/2024: Actualización reciente que adapta normativa española a reglamentos europeos. AUTORIDAD: AESA. REQUISITOS: Registro de operador, seguro de responsabilidad civil, certificado de piloto, declaración operacional o autorización."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es RTK y por qué es importante en fotogrametría?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RTK (Real-Time Kinematic) es una técnica de posicionamiento GPS de alta precisión que corrige errores en tiempo real mediante una estación base. Importancia: (1) PRECISIÓN: Reduce error de ±5 m (GPS estándar) a <2 cm, (2) SIN GCPs: Elimina necesidad de puntos de control en tierra, ahorrando tiempo y costes, (3) CALIDAD: Mejora precisión de modelos 3D y ortomosaicos, (4) EFICIENCIA: Permite procesamiento más rápido sin ajuste manual. El Dragonfish tiene RTK DUAL (dos receptores GPS independientes), garantizando redundancia y máxima precisión incluso en condiciones difíciles (cañones, zonas urbanas densas). Crítico para proyectos de ingeniería donde cada centímetro cuenta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué aplicaciones tiene el análisis multiespectral con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El análisis multiespectral captura imágenes en bandas espectrales invisibles al ojo humano (infrarrojo cercano, red edge). Aplicaciones: (1) AGRICULTURA DE PRECISIÓN: Detección de estrés hídrico, plagas, enfermedades antes de que sean visibles. Cálculo de índices NDVI, NDRE, GNDVI para optimizar riego y fertilización. (2) GESTIÓN FORESTAL: Evaluación de salud forestal, detección de plagas (procesionaria, escolítidos), inventario de biomasa, cálculo de carbono almacenado. (3) MONITOREO AMBIENTAL: Detección de especies invasoras, evaluación de calidad de agua (algas, turbidez), monitoreo de humedales. (4) MINERÍA: Identificación de minerales, evaluación de revegetación post-minería. Gaueko Air usa el Mavic 3 Multiespectral con 4 bandas (Green, Red, Red Edge, NIR) + RGB."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué entregables se reciben en un proyecto de fotogrametría?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entregables estándar: (1) ORTOMOSAICO: Imagen georeferenciada de alta resolución (<2 cm/px) sin distorsiones. Formato: GeoTIFF, ECW, MrSID. (2) MODELO 3D: Malla texturizada en 3D del terreno y objetos. Formato: OBJ, FBX, LAS, LAZ. (3) MDT: Modelo Digital del Terreno sin vegetación ni edificios. Formato: GeoTIFF, XYZ, LAS. (4) MDS: Modelo Digital de Superficies con todos los elementos (vegetación, edificios). (5) CURVAS DE NIVEL: Líneas de igual elevación con equidistancia personalizable. (6) NUBE DE PUNTOS: Millones de puntos 3D con coordenadas XYZ y color RGB. (7) VISOR WEB: Aplicación web interactiva para visualizar y medir en el modelo 3D. (8) INFORME TÉCNICO: Memoria con metodología, precisión alcanzada y hallazgos relevantes. Formatos adicionales bajo demanda (DWG, SHP, KML)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta desarrollar una app de visualización de datos UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El desarrollo de apps y visores GIS personalizados depende de la complejidad funcional. Rangos orientativos: (1) VISOR WEB BÁSICO: 2.000-5.000€. Visualización 3D, mediciones básicas (distancias, áreas, volúmenes), capas on/off, exportación de imágenes. (2) VISOR WEB AVANZADO: 5.000-15.000€. Análisis de cambios temporales, comparación de modelos, herramientas de anotación, integración con GIS corporativo, control de acceso por usuarios. (3) APP MÓVIL: 10.000-30.000€. Aplicación nativa iOS/Android con visualización offline, captura de datos en campo, sincronización con servidor, geolocalización. (4) PLATAFORMA COMPLETA: 30.000-100.000€. Sistema end-to-end con gestión de proyectos, planificación de vuelos, procesamiento automático, análisis con IA, dashboards, API para integración. Incluye servidor dedicado, mantenimiento y soporte técnico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué precisión se puede lograr con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La precisión depende de altura de vuelo, calidad de cámara, método de georreferenciación y condiciones ambientales. Con el equipamiento de Gaueko Air: (1) CON RTK (sin GCPs): Precisión horizontal <2 cm, vertical <3 cm. Ideal para proyectos donde no es posible colocar puntos de control. (2) CON RTK + GCPs: Precisión horizontal <1 cm, vertical <1.5 cm. Máxima precisión para proyectos de ingeniería críticos. (3) SIN RTK (solo GPS): Precisión horizontal 5-10 cm, vertical 10-20 cm (requiere GCPs para mejorar). FACTORES QUE AFECTAN: Altura de vuelo (menor altura = mayor precisión), solapamiento de imágenes (80% recomendado), calidad de GCPs (si se usan), condiciones de luz (evitar sombras duras), movimiento de vegetación (viento). Para comparación: topografía tradicional con estación total alcanza ±5 mm, pero requiere acceso físico a cada punto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se usa IA para detectar cambios en infraestructuras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaueko Air utiliza IA para automatizar la detección de cambios mediante análisis de imágenes multitemporales. Proceso: (1) CAPTURA: Levantamientos periódicos de la misma infraestructura (mensual, trimestral, anual). (2) ALINEACIÓN: Registro automático de modelos 3D para comparación píxel a píxel. (3) DETECCIÓN: Algoritmos de deep learning (redes neuronales convolucionales) identifican cambios: nuevas construcciones, demoliciones, deformaciones, grietas, vegetación invasora, erosión, acumulación de materiales. (4) CLASIFICACIÓN: La IA clasifica cambios por tipo y severidad (crítico, moderado, leve). (5) ALERTAS: Notificaciones automáticas cuando se detectan cambios críticos. APLICACIONES: Monitoreo de taludes en carreteras (deslizamientos), inspección de puentes (grietas), vigilancia de obras (avance real vs. planificado), detección de ocupaciones ilegales, evaluación de daños post-desastre. Ahorro de tiempo: 90% vs. inspección manual."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué áreas se pueden cubrir en un día con el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Autel Dragonfish Standard L20T puede cubrir áreas significativamente mayores que drones multirrotores gracias a su autonomía de 120 minutos y velocidad de crucero de 15 m/s. Capacidad por día (8-12 horas de trabajo): (1) INFRAESTRUCTURAS LINEALES: 50-80 km de carreteras, líneas eléctricas o ferrocarriles (ancho de corredor 100-200 m). Ejemplo: Levantamiento completo de 65 km de la N135 en 3 días. (2) ÁREAS EXTENSAS: 500-1000 hectáreas (5-10 km²) con resolución <2 cm/px y solapamiento 80%. (3) RECONOCIMIENTO RÁPIDO: 2000-3000 hectáreas (20-30 km²) con resolución 5 cm/px para análisis preliminares. FACTORES LIMITANTES: Cambios de batería (15 min cada 120 min de vuelo), condiciones meteorológicas (viento, lluvia), permisos de espacio aéreo (coordinación con AESA), procesamiento de datos (requiere tiempo adicional). Para comparación: un Mavic 3 cubre 50-100 ha/día, un helicóptero 1000-2000 ha/día pero con menor resolución."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es Copernicus EMS y cómo participa Gaueko Air?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copernicus Emergency Management Service (EMS) es el servicio de gestión de emergencias de la Unión Europea que proporciona información geoespacial para respuesta a desastres. Gaueko Air es proveedor de servicios UAS para Copernicus EMS en España y Portugal, lo que significa: (1) Capacidad de respuesta rápida (<24h) en emergencias activadas por Copernicus, (2) Acceso a protocolos y estándares europeos de calidad de datos, (3) Experiencia en coordinación con autoridades nacionales (Protección Civil, Bomberos, Policía), (4) Integración de datos UAS con imágenes satelitales Sentinel para análisis multitemporal, (5) Participación en ejercicios y simulacros europeos de respuesta a desastres. Esta experiencia nos posiciona como referente en servicios UAS para emergencias en España."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Dock 2 y para qué sirve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El DJI Dock 2 es una estación de acoplamiento autónoma para el Matrice 3DT que permite operaciones remotas 24/7 sin intervención humana. Características: (1) AUTONOMÍA COMPLETA: El dron despega, realiza la misión, aterriza y se recarga automáticamente. (2) PROTECCIÓN: Carcasa resistente a lluvia, viento y temperaturas extremas (-35°C a +50°C). (3) CONECTIVIDAD: Control remoto vía 4G/5G desde cualquier lugar del mundo. (4) PROGRAMACIÓN: Misiones recurrentes (diarias, semanales) para monitoreo continuo. (5) ALERTAS: Notificaciones automáticas cuando se detectan cambios o anomalías. APLICACIONES: Monitoreo de obras de construcción, vigilancia de infraestructuras críticas (presas, centrales eléctricas), detección temprana de incendios, inspección de parques eólicos/solares. Ideal para clientes que necesitan monitoreo continuo sin costes operativos recurrentes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un seguro de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El seguro de responsabilidad civil es obligatorio para operar drones comercialmente en España. Coste anual orientativo: (1) CATEGORÍA ABIERTA (<25 kg, operaciones básicas): 200-500€/año. Cobertura mínima: 750.000€ (según peso del dron). (2) CATEGORÍA ESPECÍFICA (operaciones avanzadas, BVLOS): 500-2.000€/año. Cobertura recomendada: 1.500.000-3.000.000€. (3) OPERACIONES DE ALTO RIESGO (sobre personas, infraestructuras críticas): 2.000-5.000€/año. Cobertura: 3.000.000-10.000.000€. FACTORES QUE AFECTAN EL PRECIO: Valor del equipo (drones + sensores), experiencia del operador (descuentos por historial sin siniestros), tipo de operaciones (emergencias, inspecciones, eventos), área geográfica (urbano vs. rural), cobertura adicional (daños propios, robo, pérdida). ASEGURADORAS ESPECIALIZADAS: Allianz, AXA, Mapfre, Hiscox. Gaueko Air tiene seguro con cobertura de 3.000.000€ para todas las operaciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Fotogrametría vs. LiDAR: cuál es más preciso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LiDAR ofrece mayor precisión en terrenos con vegetación densa (penetra el follaje), mientras que fotogrametría es superior en texturización y coste. LiDAR: precisión vertical <5 cm, ideal para topografía forestal. Fotogrametría: precisión <2 cm con RTK, ideal para infraestructuras y áreas abiertas. Gaueko Air recomienda fotogrametría para el 80% de proyectos por su relación coste-beneficio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Drones vs. topografía tradicional: cuál es más rápido?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drones son 10-20x más rápidos. Topografía tradicional: 5-10 ha/día con estación total. Drones: 50-1000 ha/día según equipo. Ventajas adicionales: acceso a zonas peligrosas sin riesgo, cobertura completa vs. puntos discretos, modelo 3D completo vs. perfiles 2D."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Drones vs. helicópteros: cuál es más económico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drones son 50-70% más económicos. Helicóptero: 1.500-3.000€/hora de vuelo, resolución 10-20 cm/px. Drones: 1.000€/día completo, resolución <2 cm/px. Drones también son más seguros (sin riesgo para tripulación), más silenciosos y con menor impacto ambiental."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué resolución ofrecen los drones vs. satélites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drones: <2 cm/px (hasta 0.5 cm/px volando bajo). Satélites comerciales: 30-50 cm/px (WorldView, Pléiades). Satélites gratuitos: 3-10 m/px (Sentinel-2, Landsat). Para proyectos de ingeniería donde cada centímetro cuenta, drones son la única opción viable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué precisión tienen los drones con RTK vs. sin RTK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con RTK: <2 cm horizontal, <3 cm vertical (sin GCPs). Sin RTK: 5-10 cm horizontal, 10-20 cm vertical (requiere GCPs para mejorar). RTK elimina necesidad de GCPs, ahorrando tiempo y costes en campo. Todos los equipos de Gaueko Air tienen RTK integrado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es fotogrametría aérea?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fotogrametría es la ciencia de obtener mediciones precisas a partir de fotografías. En fotogrametría aérea, se capturan cientos de imágenes solapadas desde un dron, que luego se procesan con algoritmos de Structure from Motion (SfM) para reconstruir modelos 3D del terreno. Resultado: ortomosaicos (imágenes sin distorsión), modelos 3D texturizados, nubes de puntos, MDT/MDS. Precisión: <2 cm con RTK."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un ortomosaico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un ortomosaico es una imagen aérea georeferenciada sin distorsiones, creada mediante la unión de cientos de fotografías individuales. A diferencia de una foto aérea normal, un ortomosaico tiene escala uniforme en toda su extensión, permitiendo mediciones precisas de distancias y áreas. Formato: GeoTIFF con coordenadas UTM o geográficas, compatible con todos los software GIS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un MDT (Modelo Digital del Terreno)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un MDT representa la elevación del terreno desnudo, eliminando vegetación, edificios y otros objetos. Se obtiene clasificando la nube de puntos fotogramétrica para separar el suelo de elementos sobre él. Aplicaciones: diseño de carreteras, cálculo de volúmenes de movimiento de tierras, análisis de drenaje, modelado hidrológico. Precisión: <5 cm vertical con RTK."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un MDS (Modelo Digital de Superficies)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un MDS representa la elevación de todas las superficies visibles desde el aire, incluyendo vegetación, edificios, vehículos, etc. Es el modelo 'en bruto' antes de clasificar la nube de puntos. Aplicaciones: visualización 3D, análisis de línea de visión, planificación de antenas de telecomunicaciones, estudios de sombras en energía solar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un análisis multiespectral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Análisis multiespectral captura imágenes en bandas espectrales invisibles al ojo humano (infrarrojo cercano, red edge) para detectar características no visibles en RGB. Aplicaciones: salud de cultivos (NDVI, NDRE), detección de estrés hídrico, identificación de plagas, evaluación de biomasa, monitoreo de calidad de agua. Gaueko Air usa el Mavic 3 Multiespectral con 4 bandas especializadas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación STS-01?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "STS-01 (Standard Scenario 01) permite operaciones VLOS (línea de visión) sobre entorno poblado con drones Clase C5 (<25 kg). Requisitos: piloto con certificación específica, dron con identificación remota, seguro de responsabilidad civil, declaración operacional ante AESA. Gaueko Air está certificada STS-01 y es entidad de formación reconocida para impartir este curso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación STS-02?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "STS-02 permite operaciones BVLOS (más allá de línea de visión) en entorno poco poblado con drones Clase C6 (<25 kg). Requisitos adicionales vs. STS-01: sistema de detección y evitación de obstáculos, enlace de datos redundante, procedimientos de contingencia. Ideal para inspección de infraestructuras lineales (carreteras, líneas eléctricas) donde VLOS no es práctico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación PDRA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PDRA (Pre-Defined Risk Assessment) son evaluaciones de riesgo predefinidas por EASA para operaciones específicas de categoría específica. Permiten operaciones más complejas que STS sin necesidad de SORA completo. Ejemplos: PDRA-G01 (inspección de infraestructuras), PDRA-S01 (seguimiento de vehículos). Gaueko Air tiene autorización PDRA para operaciones avanzadas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la categoría abierta en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Categoría Abierta es para operaciones de bajo riesgo: drones <25 kg, altura máxima 120 m, distancia horizontal máxima 500 m, VLOS, no sobre aglomeraciones. No requiere autorización previa de AESA, solo registro de operador y certificado de piloto online (A1/A2/A3 según subcategoría). Ideal para aficionados y operaciones comerciales básicas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la categoría específica en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Categoría Específica es para operaciones de riesgo medio que no cumplen requisitos de categoría abierta. Requiere evaluación de riesgo (SORA o escenario estándar STS/PDRA), autorización o declaración ante AESA, certificado de piloto específico, manual de operaciones, seguro adecuado. Gaueko Air opera principalmente en esta categoría para proyectos comerciales avanzados."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar puentes con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de puentes: (1) CAPTURA: Vuelo automatizado alrededor del puente capturando todas las caras (tablero, vigas, pilares, estribos). Cámara de alta resolución (hasta 48 MP) para detectar grietas <1 mm. (2) PROCESAMIENTO: Modelo 3D completo del puente con textura fotorrealística. (3) ANÁLISIS: IA detecta grietas, desprendimientos, corrosión, eflorescencias, deformaciones. (4) REPORTE: Geolocalización exacta de cada defecto con dimensiones y severidad. VENTAJAS: Sin andamios ni grúas, sin cortes de tráfico, inspección completa en horas vs. días, documentación visual completa para histórico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo monitorear incendios forestales con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monitoreo de incendios: (1) PREVENCIÓN: Análisis multiespectral para detectar estrés hídrico y vegetación seca (alto riesgo). Mapas de riesgo actualizados. (2) DETECCIÓN TEMPRANA: Cámara térmica detecta focos de calor antes de que sean visibles. (3) MONITORIZACIÓN ACTIVA: Vuelos sobre incendio activo para evaluar frente de fuego, dirección de propagación, puntos calientes. Transmisión en tiempo real a centro de mando. (4) POST-INCENDIO: Evaluación de áreas quemadas, cálculo de daños, planificación de reforestación. Experiencia: Gaueko Air participó en monitoreo de incendios verano 2022 con más de 40 horas de vuelo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo hacer un inventario forestal con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inventario forestal: (1) CAPTURA: Vuelo fotogramétrico sobre masa forestal con solapamiento 80%. (2) PROCESAMIENTO: Modelo 3D de la copa de los árboles (Canopy Height Model). (3) ANÁLISIS: Algoritmos de IA detectan árboles individuales, calculan altura, diámetro de copa, volumen de madera. Clasificación por especies (si se usa multiespectral). (4) RESULTADOS: Número de árboles, densidad (árboles/ha), volumen de madera (m³/ha), biomasa, carbono almacenado. VENTAJAS: 10x más rápido que inventario manual, cobertura completa vs. parcelas de muestreo, repetible para monitoreo de crecimiento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo monitorear obras de construcción con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monitoreo de obras: (1) PLANIFICACIÓN: Vuelos semanales o mensuales para documentar avance. (2) CAPTURA: Ortomosaico + modelo 3D de toda la obra. (3) ANÁLISIS: Comparación con planos BIM para verificar que la construcción sigue el diseño. Cálculo automático de volúmenes de excavación, relleno, acopio de materiales. Detección de desviaciones. (4) REPORTES: Informe visual del avance real vs. planificado, certificación de volúmenes para pagos a contratistas. VENTAJAS: Documentación objetiva, detección temprana de problemas, optimización de logística, reducción de disputas contractuales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar paneles solares con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de parques solares: (1) CAPTURA: Cámara térmica (640x512px o superior) vuela sobre paneles. (2) DETECCIÓN: IA identifica paneles defectuosos (puntos calientes, células rotas, suciedad, sombras). (3) GEOLOCALIZACIÓN: Cada panel defectuoso se geolocaliza con precisión para mantenimiento. (4) REPORTE: Lista de paneles a reparar con prioridad según pérdida de producción estimada. VENTAJAS: Inspección de 100 MW en 1-2 días vs. semanas manualmente, detección de defectos invisibles a simple vista, optimización de mantenimiento (solo paneles defectuosos), aumento de producción 2-5%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo hacer un gemelo digital de una ciudad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gemelo digital urbano: (1) PLANIFICACIÓN: División de la ciudad en zonas de vuelo, coordinación con AESA para permisos. (2) CAPTURA: Vuelos fotogramétricos con solapamiento 80% y altura optimizada (80-120 m) para balance entre resolución y cobertura. (3) PROCESAMIENTO: Modelo 3D completo de la ciudad con textura fotorrealística. Integración con datos catastrales, GIS municipal, redes de servicios. (4) VISOR WEB: Aplicación interactiva para visualizar, medir, planificar intervenciones. (5) ACTUALIZACIÓN: Vuelos periódicos (anuales) para detectar cambios (nuevas construcciones, demoliciones, cambios de uso). APLICACIONES: Planificación urbanística, gestión de licencias, catastro, turismo virtual, gemelos digitales de edificios singulares."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones para análisis de tráfico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Análisis de tráfico: (1) CAPTURA: Video aéreo desde posición fija sobre intersección o tramo de carretera. Altura 50-100 m para cubrir área amplia. (2) PROCESAMIENTO: Algoritmos de computer vision rastrean vehículos individuales, calculan velocidades, trayectorias, tiempos de espera. (3) ANÁLISIS: Conteo de vehículos por tipo (coches, motos, camiones, autobuses), matriz origen-destino, nivel de servicio (LOS), puntos de congestión. (4) RESULTADOS: Recomendaciones para optimizar semáforos, rediseñar intersecciones, planificar nuevas infraestructuras. Caso real: Gaueko Air realizó estudio de tráfico en N135 con seguimiento de motos durante 2 meses, detectando patrones de uso y puntos de riesgo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones para seguridad de eventos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seguridad de eventos: (1) PREVIO: Reconocimiento del área, identificación de rutas de evacuación, puntos de acceso, zonas de riesgo. (2) DURANTE: Monitoreo aéreo en tiempo real, detección de aglomeraciones peligrosas, vigilancia de perímetro, apoyo a fuerzas de seguridad. Transmisión de video a centro de control. (3) POST-EVENTO: Evaluación de daños, documentación de incidentes. APLICACIONES: Conciertos, eventos deportivos, manifestaciones, visitas oficiales. VENTAJAS: Visión global que complementa cámaras fijas, movilidad para seguir incidentes, capacidad de zoom para identificación, documentación aérea para investigaciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones para vigilancia de fronteras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vigilancia de fronteras: (1) PATRULLAJE: Vuelos BVLOS automatizados siguiendo la línea de frontera. Cámara de largo alcance (zoom 160x) para detección a distancia. (2) DETECCIÓN: Cámara térmica detecta personas y vehículos de día y noche. IA filtra falsos positivos (animales, vegetación). (3) SEGUIMIENTO: Una vez detectada actividad sospechosa, el dron sigue automáticamente mientras alerta a patrullas terrestres. (4) DOCUMENTACIÓN: Grabación de video como evidencia. VENTAJAS: Cobertura de áreas extensas con pocos efectivos, operación 24/7, respuesta rápida, reducción de riesgo para agentes. Aplicable también a vigilancia de infraestructuras críticas (centrales eléctricas, presas, bases militares)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones para inspección de redes de agua?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de redes de agua: (1) DETECCIÓN DE FUGAS: Cámara térmica detecta diferencias de temperatura causadas por fugas (agua fría en verano, caliente en invierno). (2) INSPECCIÓN DE DEPÓSITOS: Modelo 3D de depósitos y tanques para evaluar estado estructural sin vaciarlos. (3) MONITOREO DE CALIDAD: Análisis multiespectral de embalses y ríos para detectar algas, turbidez, contaminación. (4) INSPECCIÓN DE ALCANTARILLADO: Drones especializados para interior de tuberías grandes (>1 m diámetro) detectan grietas, obstrucciones, infiltraciones. VENTAJAS: Inspección sin interrumpir el servicio, detección temprana de problemas, reducción de pérdidas de agua, optimización de mantenimiento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento topográfico con drones por kilómetro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El coste por kilómetro de un levantamiento topográfico lineal (carreteras, líneas eléctricas, ferrocarriles) varía según el ancho del corredor y la resolución requerida. Rangos orientativos: (1) CORREDOR ESTRECHO (50-100 m de ancho): 150-300€/km con resolución <2 cm/px. Ideal para inspección de líneas eléctricas, oleoductos, gasoductos. (2) CORREDOR MEDIO (100-200 m de ancho): 300-500€/km. Ideal para carreteras, ferrocarriles, canales. (3) CORREDOR AMPLIO (200-500 m de ancho): 500-1.000€/km. Ideal para autopistas, zonas de protección ambiental. FACTORES QUE AFECTAN EL PRECIO: Accesibilidad (zonas remotas requieren más logística), orografía (terreno montañoso requiere más vuelos), vegetación (bosque denso dificulta procesamiento), permisos (espacio aéreo controlado requiere coordinación con AESA). El Dragonfish de Gaueko Air permite cubrir 50-80 km/día, reduciendo costes significativamente vs. drones multirrotores. Caso real: N135 Navarra (65 km, corredor 150 m) = 185€/km incluyendo seguimiento de tráfico 2 meses con IA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué diferencia hay entre un dron de ala fija y un multirrotor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Diferencias clave: (1) AUTONOMÍA: Ala fija 60-120 min (Dragonfish), Multirrotor 20-40 min (Mavic 3). (2) VELOCIDAD: Ala fija 15-25 m/s, Multirrotor 5-15 m/s. (3) DESPEGUE/ATERRIZAJE: Ala fija requiere pista o VTOL, Multirrotor despega verticalmente. (4) MANIOBRABILIDAD: Ala fija limitada, Multirrotor alta (puede volar estático). (5) ÁREA CUBIERTA: Ala fija 500-1000 ha/día, Multirrotor 50-100 ha/día. (6) APLICACIONES: Ala fija ideal para grandes extensiones lineales (carreteras, líneas eléctricas, costas), Multirrotor ideal para áreas pequeñas con obstáculos (puentes, torres, edificios). El Dragonfish de Gaueko Air es VTOL (ala fija con despegue vertical), combinando lo mejor de ambos mundos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un GCP (Ground Control Point) y cuándo se necesita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un GCP (Ground Control Point) es un punto en el terreno con coordenadas conocidas con alta precisión (medidas con GPS RTK o estación total) que se usa para georreferenciar modelos fotogramétricos. ¿CUÁNDO SE NECESITA? (1) SIN RTK: Obligatorio para alcanzar precisión <10 cm. Mínimo 5 GCPs por proyecto. (2) CON RTK: Opcional. RTK ya proporciona precisión <2 cm sin GCPs. GCPs adicionales pueden mejorar a <1 cm para proyectos críticos. (3) TERRENO PLANO: Menos GCPs necesarios (5-10). (4) TERRENO MONTAÑOSO: Más GCPs necesarios (10-20) distribuidos en diferentes elevaciones. COLOCACIÓN: Deben ser visibles desde el aire (dianas de 50x50 cm), distribuidos uniformemente, medidos con GPS RTK (precisión <2 cm). COSTE: 50-100€ por GCP (material + medición). Gaueko Air usa RTK dual en todos los equipos, eliminando necesidad de GCPs en el 90% de proyectos, ahorrando tiempo y costes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se calcula el volumen de tierra movida con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cálculo de volúmenes de tierra movida mediante fotogrametría: (1) LEVANTAMIENTO INICIAL: Vuelo fotogramétrico antes de iniciar obras. Genera MDT (Modelo Digital del Terreno) del estado inicial. (2) LEVANTAMIENTOS PERIÓDICOS: Vuelos semanales o mensuales durante la obra. (3) COMPARACIÓN: Software GIS compara MDT inicial vs. actual, calculando diferencias de elevación en cada punto. (4) CÁLCULO: Suma de volúmenes de corte (excavación) y relleno (aporte de tierras). Fórmula: V = Σ(ΔZ × Área_celda). (5) REPORTE: Certificación de volúmenes para pagos a contratistas. PRECISIÓN: ±2-5% con RTK (vs. ±10-15% con métodos tradicionales). APLICACIONES: Movimientos de tierras en carreteras, presas, canteras, minas, vertederos. VENTAJAS: Medición completa (vs. perfiles discretos), sin interferir con obras, documentación visual para disputas, histórico de evolución. Gaueko Air proporciona certificados de volúmenes con precisión <2 cm vertical, aceptados por ingenierías y administraciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el NDVI y para qué sirve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDVI (Normalized Difference Vegetation Index) es un índice que mide la salud y vigor de la vegetación mediante análisis multiespectral. Fórmula: NDVI = (NIR - Red) / (NIR + Red), donde NIR es infrarrojo cercano y Red es rojo visible. RANGO: -1 a +1. Valores típicos: (1) <0: Agua, nieve, nubes. (2) 0-0.2: Suelo desnudo, roca, asfalto. (3) 0.2-0.4: Vegetación escasa o estresada. (4) 0.4-0.6: Vegetación moderada. (5) 0.6-0.8: Vegetación densa y saludable. (6) >0.8: Vegetación muy densa (bosques tropicales). APLICACIONES: (1) AGRICULTURA: Detección de estrés hídrico, plagas, enfermedades antes de que sean visibles. Optimización de riego y fertilización. (2) GESTIÓN FORESTAL: Evaluación de salud forestal, detección de plagas (procesionaria, escolítidos), cálculo de biomasa. (3) MONITOREO AMBIENTAL: Seguimiento de revegetación post-minería, evaluación de impacto de incendios, detección de especies invasoras. Gaueko Air usa el Mavic 3 Multiespectral con 4 bandas (Green, Red, Red Edge, NIR) para calcular NDVI, NDRE, GNDVI y otros índices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuántas imágenes se capturan en un levantamiento fotogramétrico típico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El número de imágenes depende del área, altura de vuelo, resolución y solapamiento. Cálculo aproximado: Imágenes = (Área / Cobertura_por_imagen) × Factor_solapamiento. EJEMPLOS: (1) PROYECTO PEQUEÑO (10 ha, altura 80 m, resolución 2 cm/px, solapamiento 80%): ~500-800 imágenes. (2) PROYECTO MEDIANO (100 ha, altura 100 m, resolución 3 cm/px): ~2.000-3.000 imágenes. (3) PROYECTO GRANDE (1.000 ha, altura 120 m, resolución 5 cm/px): ~10.000-15.000 imágenes. (4) INFRAESTRUCTURA LINEAL (50 km de carretera, corredor 150 m): ~5.000-8.000 imágenes. PROCESAMIENTO: Software fotogramétrico (Pix4D, Metashape, DroneDeploy) procesa todas las imágenes automáticamente mediante algoritmos de Structure from Motion (SfM). Tiempo de procesamiento: 1-3 horas por cada 1.000 imágenes en workstation potente (GPU NVIDIA RTX, 64 GB RAM). ALMACENAMIENTO: 5-10 MB por imagen (JPEG) o 20-30 MB (RAW). Proyecto de 10.000 imágenes = 50-300 GB. Gaueko Air usa servidores dedicados con GPUs para procesamiento rápido y almacenamiento en la nube para acceso remoto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué permisos se necesitan para volar drones comercialmente en España?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permisos y requisitos para operaciones comerciales UAS en España: (1) REGISTRO DE OPERADOR: Obligatorio en AESA. Renovación anual. Coste: Gratuito. (2) CERTIFICADO DE PILOTO: Según categoría de operación. Categoría Abierta: Certificado A1/A2/A3 (examen online AESA). Categoría Específica: Certificado específico (curso presencial + examen). (3) SEGURO DE RESPONSABILIDAD CIVIL: Obligatorio. Cobertura mínima según peso del dron (750.000-3.000.000€). (4) DECLARACIÓN OPERACIONAL o AUTORIZACIÓN: Categoría Específica requiere declarar operaciones ante AESA (STS) o solicitar autorización (PDRA, SORA). (5) MANUAL DE OPERACIONES: Documento que describe procedimientos, evaluación de riesgos, medidas de mitigación. (6) PERMISOS DE ESPACIO AÉREO: Operaciones en zonas controladas (CTR, ATZ) requieren autorización de AESA o proveedor de servicios de tránsito aéreo. (7) PERMISOS MUNICIPALES: Despegue/aterrizaje en espacios públicos puede requerir permiso del ayuntamiento. (8) PERMISOS DE SOBREVUELO: Sobrevolar propiedades privadas requiere consentimiento del propietario (salvo emergencias). Gaueko Air gestiona todos los permisos necesarios para cada proyecto, incluyendo coordinación con AESA, ayuntamientos y propietarios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se puede volar drones de noche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vuelos nocturnos con drones en España: (1) CATEGORÍA ABIERTA: Prohibido volar de noche (desde puesta de sol hasta amanecer) salvo que el dron tenga luces de navegación y el piloto haya completado formación adicional. (2) CATEGORÍA ESPECÍFICA: Permitido con autorización de AESA. Requiere: Evaluación de riesgos específica para vuelos nocturnos, luces de navegación (estroboscópicas visibles a 3 km), iluminación adicional si se requiere mantener VLOS, procedimientos de emergencia adaptados, formación del piloto en operaciones nocturnas. (3) APLICACIONES: Búsqueda y rescate (cámaras térmicas detectan personas en oscuridad), inspección de infraestructuras (sin interrumpir tráfico diurno), vigilancia y seguridad, monitoreo de fauna nocturna, eventos nocturnos (conciertos, deportes). VENTAJAS: Menor tráfico aéreo, condiciones meteorológicas más estables (menos viento), menor impacto en actividades diurnas. DESVENTAJAS: Mayor riesgo de colisión con obstáculos, dificultad para mantener VLOS, limitaciones de cámaras RGB (requieren iluminación o térmica). Gaueko Air está autorizada para operaciones nocturnas en categoría específica, con equipos que incluyen cámaras térmicas de alta resolución (640x512px) y luces de navegación."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un vuelo automatizado y cómo funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vuelo automatizado (o autónomo) es cuando el dron sigue una ruta preprogramada sin intervención manual del piloto. Funcionamiento: (1) PLANIFICACIÓN: Software de planificación de vuelos (DJI Pilot, Pix4Dcapture, UgCS) permite definir: Área a cubrir o ruta a seguir, altura de vuelo, velocidad, solapamiento de imágenes, ángulo de cámara, waypoints (puntos de paso). (2) CARGA: La misión se carga en el dron antes del despegue. (3) EJECUCIÓN: El piloto inicia la misión. El dron despega automáticamente, sigue la ruta programada, captura imágenes en intervalos regulares, evita obstáculos (si tiene sensores), regresa al punto de inicio y aterriza automáticamente. (4) SUPERVISIÓN: El piloto supervisa el vuelo en tiempo real, puede pausar o abortar si es necesario. VENTAJAS: (1) PRECISIÓN: Cobertura completa sin áreas faltantes. (2) REPETIBILIDAD: Misiones idénticas para comparación multitemporal. (3) EFICIENCIA: El piloto puede preparar la siguiente misión mientras el dron vuela. (4) SEGURIDAD: Reduce errores humanos. APLICACIONES: Fotogrametría, inspección de infraestructuras lineales, agricultura de precisión, monitoreo ambiental. Gaueko Air usa vuelos automatizados en el 95% de proyectos, garantizando calidad y eficiencia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software se usa para procesar imágenes de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Software fotogramétrico profesional: (1) PIX4DMAPPER: Líder del mercado. Procesamiento automático de imágenes a ortomosaicos, modelos 3D, nubes de puntos, MDT/MDS. Soporte RTK/PPK. Precio: ~3.500€/año. (2) AGISOFT METASHAPE: Alternativa potente y más económica. Excelente calidad de reconstrucción 3D. Precio: ~3.000€ (licencia perpetua). (3) DRONEDEPLOY: Plataforma cloud. Procesamiento automático, visor web, análisis de cambios. Ideal para seguimiento de obras. Precio: ~300€/mes. (4) WEBODM: Open source y gratuito. Basado en OpenDroneMap. Requiere conocimientos técnicos. (5) QGIS: Software GIS gratuito para análisis posterior (mediciones, cálculo de volúmenes, análisis espacial). (6) GLOBAL MAPPER: GIS comercial con herramientas avanzadas de análisis de terreno. Precio: ~500€. (7) AUTOCAD CIVIL 3D: Para integración con proyectos de ingeniería civil. Precio: ~2.000€/año. HARDWARE REQUERIDO: Workstation potente con GPU NVIDIA (RTX 3080 o superior), 64 GB RAM mínimo, SSD NVMe para almacenamiento rápido. Gaueko Air usa Pix4D y Metashape para procesamiento, QGIS para análisis y desarrolla visores web personalizados con Three.js y Cesium."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un modelo 3D de un edificio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un modelo 3D de un edificio?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento topográfico con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento topográfico con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta monitorear una carretera con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta monitorear una carretera con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un vuelo BVLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un vuelo BVLOS?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta una inspección térmica de infraestructuras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta una inspección térmica de infraestructuras?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un análisis multiespectral de cultivos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un análisis multiespectral de cultivos?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento de 50 km de carretera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un levantamiento de 50 km de carretera?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un gemelo digital actualizable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un gemelo digital actualizable?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un servidor GIS dedicado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un servidor GIS dedicado?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de certificación AESA para operadores UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de certificación AESA para operadores UAS?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un vuelo de emergencia con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un vuelo de emergencia con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un servicio de búsqueda y rescate con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un servicio de búsqueda y rescate con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta monitorear un incendio forestal con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta monitorear un incendio forestal con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento de una mina a cielo abierto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento de una mina a cielo abierto?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta inspeccionar un puente con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta inspeccionar un puente con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento de una presa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento de una presa?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta monitorear una obra de construcción con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta monitorear una obra de construcción con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un inventario forestal con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un inventario forestal con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un análisis de riesgo de incendios con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un análisis de riesgo de incendios con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento de un parque eólico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento de un parque eólico?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta inspeccionar paneles solares con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta inspeccionar paneles solares con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento de una zona urbana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento de una zona urbana?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un análisis de tráfico con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un análisis de tráfico con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento de un puerto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento de un puerto?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta monitorear una inundación con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta monitorear una inundación con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento de una zona costera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento de una zona costera?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un análisis de erosión con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un análisis de erosión con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento de un vertedero?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento de un vertedero?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta inspeccionar una red de alcantarillado con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta inspeccionar una red de alcantarillado con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento de un aeropuerto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento de un aeropuerto?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta monitorear una manifestación con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta monitorear una manifestación con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento de una frontera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento de una frontera?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un análisis de seguridad de un evento con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un análisis de seguridad de un evento con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento de una zona militar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento de una zona militar?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un análisis de cambios en infraestructuras con IA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un análisis de cambios en infraestructuras con IA?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un servicio de monitoreo continuo con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un servicio de monitoreo continuo con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento con RTK de alta precisión?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un levantamiento con RTK de alta precisión?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento nocturno con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento nocturno con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento en condiciones meteorológicas adversas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un levantamiento en condiciones meteorológicas adversas?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento urgente (24h)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento urgente (24h)?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento de una zona de difícil acceso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un levantamiento de una zona de difícil acceso?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de un levantamiento submarino con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el coste de un levantamiento submarino con drones?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento de una zona contaminada?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuánto cuesta un levantamiento de una zona contaminada?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio de un levantamiento de una zona en conflicto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cuál es el precio de un levantamiento de una zona en conflicto?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Drones vs. inspección manual: cuál es más seguro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Drones vs. inspección manual: cuál es más seguro?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué autonomía tienen los drones de ala fija vs. multirrotores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué autonomía tienen los drones de ala fija vs. multirrotores?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué alcance tienen los drones BVLOS vs. VLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué alcance tienen los drones BVLOS vs. VLOS?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué sensores son mejores para inspección térmica?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué sensores son mejores para inspección térmica?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para grandes extensiones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para grandes extensiones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para emergencias?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para emergencias?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para agricultura de precisión?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para agricultura de precisión?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para inspección de líneas eléctricas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para inspección de líneas eléctricas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para búsqueda y rescate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para búsqueda y rescate?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para monitoreo de incendios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para monitoreo de incendios?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para inspección de puentes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para inspección de puentes?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para levantamientos urbanos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para levantamientos urbanos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para levantamientos forestales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para levantamientos forestales?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para levantamientos mineros?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para levantamientos mineros?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para levantamientos costeros?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para levantamientos costeros?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para levantamientos nocturnos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para levantamientos nocturnos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para condiciones meteorológicas adversas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para condiciones meteorológicas adversas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas de difícil acceso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas de difícil acceso?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas urbanas densas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas urbanas densas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas rurales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas rurales?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas montañosas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas montañosas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas desérticas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas desérticas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas polares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas polares?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué drones son mejores para zonas tropicales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué drones son mejores para zonas tropicales?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para procesar imágenes de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para procesar imágenes de drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para crear gemelos digitales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para crear gemelos digitales?. Gaueko Air ofrece servicios de Gemelos Digitales, Fotogrametría, Emergencias, Inspección de Infraestructuras, Análisis Multiespectral, Desarrollo de Apps GIS. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para análisis multiespectral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para análisis multiespectral?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para análisis térmico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para análisis térmico?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para análisis de cambios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para análisis de cambios?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para crear modelos 3D?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para crear modelos 3D?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para crear ortomosaicos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para crear ortomosaicos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para crear MDT/MDS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para crear MDT/MDS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para análisis GIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para análisis GIS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software es mejor para visualización de datos UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué software es mejor para visualización de datos UAS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué formato de datos es mejor para gemelos digitales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué formato de datos es mejor para gemelos digitales?. Gaueko Air ofrece servicios de Gemelos Digitales, Fotogrametría, Emergencias, Inspección de Infraestructuras, Análisis Multiespectral, Desarrollo de Apps GIS. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué formato de datos es mejor para integración con GIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué formato de datos es mejor para integración con GIS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué formato de datos es mejor para análisis con IA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué formato de datos es mejor para análisis con IA?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué formato de datos es mejor para compartir con clientes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué formato de datos es mejor para compartir con clientes?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué formato de datos es mejor para almacenamiento a largo plazo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué formato de datos es mejor para almacenamiento a largo plazo?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué resolución se puede lograr con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué resolución se puede lograr con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué área se puede cubrir en un día con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué área se puede cubrir en un día con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué tiempo se tarda en procesar datos de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué tiempo se tarda en procesar datos de drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué tiempo se tarda en entregar un proyecto con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué tiempo se tarda en entregar un proyecto con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué servicios ofrece una operadora UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué servicios ofrece una operadora UAS?. Gaueko Air ofrece servicios de Gemelos Digitales, Fotogrametría, Emergencias, Inspección de Infraestructuras, Análisis Multiespectral, Desarrollo de Apps GIS. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un análisis térmico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un análisis térmico?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un análisis NDVI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un análisis NDVI?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un análisis de cambios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un análisis de cambios?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento BVLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento BVLOS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento VLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento VLOS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con RTK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con RTK?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con PPK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con PPK?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con GCPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con GCPs?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento sin GCPs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento sin GCPs?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con LiDAR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con LiDAR?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con fotogrametría?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con fotogrametría?. Gaueko Air ofrece servicios de Gemelos Digitales, Fotogrametría, Emergencias, Inspección de Infraestructuras, Análisis Multiespectral, Desarrollo de Apps GIS. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con térmica?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con térmica?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con multiespectral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con multiespectral?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con RGB?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con RGB?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con infrarrojo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con infrarrojo?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con hiperespectral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con hiperespectral?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con radar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con radar?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con magnetómetro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con magnetómetro?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con gravímetro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con gravímetro?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con escáner láser?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con escáner láser?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con cámara 360°?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con cámara 360°?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con cámara de video?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con cámara de video?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con transmisión en tiempo real?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con transmisión en tiempo real?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis en tiempo real?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis en tiempo real?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con IA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con IA?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con machine learning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con machine learning?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con deep learning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con deep learning?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con computer vision?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con computer vision?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con detección de objetos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con detección de objetos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con clasificación de imágenes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con clasificación de imágenes?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con segmentación de imágenes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con segmentación de imágenes?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con reconocimiento de patrones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con reconocimiento de patrones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis predictivo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis predictivo?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis prescriptivo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis prescriptivo?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis descriptivo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis descriptivo?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de tendencias?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de tendencias?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de anomalías?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de anomalías?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de riesgos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de riesgos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de vulnerabilidades?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de vulnerabilidades?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de amenazas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de amenazas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de impacto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de impacto?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de coste-beneficio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de coste-beneficio?. El precio base es de 1.000€ por 8-12h por jornada de trabajo. Para proyectos específicos, ofrecemos presupuestos personalizados. Contacto: air@gaueko.es."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un levantamiento con análisis de ROI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un levantamiento con análisis de ROI?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué certificaciones necesita un operador UAS en España?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué certificaciones necesita un operador UAS en España?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación AESA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación AESA?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación EASA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación EASA?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación FAA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación FAA?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación STS-ES-01NE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación STS-ES-01NE?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación STS-ES-02NE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación STS-ES-02NE?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación SORA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación SORA?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de radiofonista UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de radiofonista UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de piloto UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de piloto UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de operador UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de operador UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de entidad de formación UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de entidad de formación UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de mantenimiento UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de mantenimiento UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de fabricante UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de fabricante UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de importador UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de importador UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de distribuidor UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de distribuidor UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de vendedor UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de vendedor UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la certificación de alquilador UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la certificación de alquilador UAS?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué normativa regula los drones en Europa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué normativa regula los drones en Europa?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué normativa regula los drones en USA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué normativa regula los drones en USA?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué normativa regula los drones en el mundo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué normativa regula los drones en el mundo?. Gaueko Air está certificada por AESA desde 2019. Certificaciones: AESA EASA, AESA NO EASA, STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, PDRA, SORA, Copernicus EMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Reglamento (UE) 2019/947?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Reglamento (UE) 2019/947?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Reglamento (UE) 2019/945?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Reglamento (UE) 2019/945?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Real Decreto 1036/2017?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Real Decreto 1036/2017?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Real Decreto 517/2024?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Real Decreto 517/2024?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la categoría certificada en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es la categoría certificada en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un escenario estándar en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un escenario estándar en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un escenario no estándar en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un escenario no estándar en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación VLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación VLOS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación BVLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación BVLOS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación EVLOS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación EVLOS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación sobre personas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación sobre personas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación sobre aglomeraciones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación sobre aglomeraciones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación en espacio aéreo controlado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación en espacio aéreo controlado?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación en espacio aéreo no controlado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación en espacio aéreo no controlado?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación en zona urbana?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación en zona urbana?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación en zona rural?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación en zona rural?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación nocturna?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación nocturna?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación diurna?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación diurna?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación en condiciones VMC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación en condiciones VMC?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación en condiciones IMC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es una operación en condiciones IMC?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un seguro de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es un seguro de drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué cubre un seguro de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué cubre un seguro de drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué responsabilidad tiene un operador UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué responsabilidad tiene un operador UAS?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar túneles con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar túneles con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar presas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar presas con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar torres de telecomunicaciones con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar torres de telecomunicaciones con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar ferrocarriles con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar ferrocarriles con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar puertos con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar puertos con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar aeropuertos con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar aeropuertos con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar redes de agua con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar redes de agua con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar redes de gas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar redes de gas con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar redes de alcantarillado con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar redes de alcantarillado con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar oleoductos con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar oleoductos con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar gasoductos con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar gasoductos con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar parques eólicos con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar parques eólicos con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar parques solares con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar parques solares con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar centrales eléctricas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar centrales eléctricas con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar centrales nucleares con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar centrales nucleares con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar refinerías con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar refinerías con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar plantas químicas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo inspeccionar plantas químicas con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en búsqueda y rescate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en búsqueda y rescate?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en incendios forestales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en incendios forestales?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en inundaciones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en inundaciones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en terremotos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en terremotos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en huracanes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en huracanes?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en tsunamis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en tsunamis?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en erupciones volcánicas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en erupciones volcánicas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en avalanchas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en avalanchas?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en deslizamientos de tierra?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en deslizamientos de tierra?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en accidentes de tráfico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en accidentes de tráfico?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en accidentes industriales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en accidentes industriales?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en accidentes aéreos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en accidentes aéreos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en accidentes marítimos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en accidentes marítimos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en accidentes ferroviarios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en accidentes ferroviarios?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en manifestaciones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en manifestaciones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en eventos masivos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en eventos masivos?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en operaciones policiales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en operaciones policiales?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en operaciones militares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en operaciones militares?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en operaciones de inteligencia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en operaciones de inteligencia?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo usar drones en operaciones de seguridad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo usar drones en operaciones de seguridad?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo hacer inventario forestal con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo hacer inventario forestal con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo detectar plagas forestales con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo detectar plagas forestales con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo detectar enfermedades forestales con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo detectar enfermedades forestales con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo monitorear salud forestal con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo monitorear salud forestal con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo planificar aprovechamientos forestales con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo planificar aprovechamientos forestales con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo certificar FSC con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo certificar FSC con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo detectar talas ilegales con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo detectar talas ilegales con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo monitorear reforestación con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo monitorear reforestación con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo evaluar biomasa forestal con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo evaluar biomasa forestal con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo calcular carbono almacenado con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Cómo calcular carbono almacenado con drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Dragonfish de Autel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Dragonfish de Autel?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Mavic 3 Multiespectral de DJI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Mavic 3 Multiespectral de DJI?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Autel MAX 4T?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Autel MAX 4T?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Matrice 3DT de DJI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Matrice 3DT de DJI?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Dock 2 de DJI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es el Dock 2 de DJI?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué autonomía tiene el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué autonomía tiene el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué alcance tiene el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué alcance tiene el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué sensores tiene el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué sensores tiene el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué precisión tiene el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué precisión tiene el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué velocidad tiene el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué velocidad tiene el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué peso puede cargar el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué peso puede cargar el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué condiciones meteorológicas soporta el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué condiciones meteorológicas soporta el Dragonfish?. El Dragonfish tiene 120 min de autonomía y 30 km de alcance, con precisión <2 cm/px."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es RTK en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es RTK en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es PPK en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es PPK en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es GCP en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es GCP en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es IMU en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es IMU en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es GPS en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es GPS en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es GNSS en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es GNSS en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es Galileo en drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Respuesta detallada para: ¿Qué es Galileo en drones?. Para más información sobre este tema, contacta con Gaueko Air en air@gaueko.es o +34 691 814 393."
+      }
+    }
+  ]
+}

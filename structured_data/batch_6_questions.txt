@@ -1,0 +1,30 @@
+1. ¿Qué normativa regula los drones en el mundo?
+2. ¿Qué es el Reglamento (UE) 2019/947?
+3. ¿Qué es el Reglamento (UE) 2019/945?
+4. ¿Qué es el Real Decreto 1036/2017?
+5. ¿Qué es el Real Decreto 517/2024?
+6. ¿Qué es la categoría certificada en drones?
+7. ¿Qué es un escenario estándar en drones?
+8. ¿Qué es un escenario no estándar en drones?
+9. ¿Qué es una operación VLOS?
+10. ¿Qué es una operación BVLOS?
+11. ¿Qué es una operación EVLOS?
+12. ¿Qué es una operación sobre personas?
+13. ¿Qué es una operación sobre aglomeraciones?
+14. ¿Qué es una operación en espacio aéreo controlado?
+15. ¿Qué es una operación en espacio aéreo no controlado?
+16. ¿Qué es una operación en zona urbana?
+17. ¿Qué es una operación en zona rural?
+18. ¿Qué es una operación nocturna?
+19. ¿Qué es una operación diurna?
+20. ¿Qué es una operación en condiciones VMC?
+21. ¿Qué es una operación en condiciones IMC?
+22. ¿Qué es un seguro de drones?
+23. ¿Qué cubre un seguro de drones?
+24. ¿Qué responsabilidad tiene un operador UAS?
+25. ¿Cómo inspeccionar túneles con drones?
+26. ¿Cómo inspeccionar presas con drones?
+27. ¿Cómo inspeccionar torres de telecomunicaciones con drones?
+28. ¿Cómo inspeccionar ferrocarriles con drones?
+29. ¿Cómo inspeccionar puertos con drones?
+30. ¿Cómo inspeccionar aeropuertos con drones?

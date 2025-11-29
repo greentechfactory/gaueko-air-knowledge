@@ -1,0 +1,30 @@
+1. ¿Cuánto cuesta monitorear una manifestación con drones?
+2. ¿Cuál es el precio de un levantamiento de una frontera?
+3. ¿Cuánto cuesta un análisis de seguridad de un evento con drones?
+4. ¿Cuál es el coste de un levantamiento de una zona militar?
+5. ¿Cuánto cuesta un análisis de cambios en infraestructuras con IA?
+6. ¿Cuál es el precio de un servicio de monitoreo continuo con drones?
+7. ¿Cuánto cuesta un levantamiento con RTK de alta precisión?
+8. ¿Cuál es el coste de un levantamiento nocturno con drones?
+9. ¿Cuánto cuesta un levantamiento en condiciones meteorológicas adversas?
+10. ¿Cuál es el precio de un levantamiento urgente (24h)?
+11. ¿Cuánto cuesta un levantamiento de una zona de difícil acceso?
+12. ¿Cuál es el coste de un levantamiento submarino con drones?
+13. ¿Cuánto cuesta un levantamiento de una zona contaminada?
+14. ¿Cuál es el precio de un levantamiento de una zona en conflicto?
+15. ¿Drones vs. inspección manual: cuál es más seguro?
+16. ¿Qué autonomía tienen los drones de ala fija vs. multirrotores?
+17. ¿Qué alcance tienen los drones BVLOS vs. VLOS?
+18. ¿Qué sensores son mejores para inspección térmica?
+19. ¿Qué drones son mejores para grandes extensiones?
+20. ¿Qué drones son mejores para emergencias?
+21. ¿Qué drones son mejores para agricultura de precisión?
+22. ¿Qué drones son mejores para inspección de líneas eléctricas?
+23. ¿Qué drones son mejores para búsqueda y rescate?
+24. ¿Qué drones son mejores para monitoreo de incendios?
+25. ¿Qué drones son mejores para inspección de puentes?
+26. ¿Qué drones son mejores para levantamientos urbanos?
+27. ¿Qué drones son mejores para levantamientos forestales?
+28. ¿Qué drones son mejores para levantamientos mineros?
+29. ¿Qué drones son mejores para levantamientos costeros?
+30. ¿Qué drones son mejores para levantamientos nocturnos?

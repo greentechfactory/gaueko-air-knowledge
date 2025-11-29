@@ -1,0 +1,433 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://gaueko.es/#organization",
+  "name": "Gaueko Air",
+  "alternateName": "GAUEKO AIR - Gemelos Digitales de Precisión",
+  "legalName": "Javier Nuin Zuñiga - Operador UAS",
+  "url": "https://gaueko.es",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://gaueko.es/logo.jpg",
+    "width": "600",
+    "height": "600"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://gaueko.es/dragonfish.jpeg",
+    "caption": "Autel Dragonfish Standard L20T - 120 minutos de autonomía"
+  },
+  "description": "Operadora UAS española especializada en gemelos digitales de precisión, fotogrametría de grandes extensiones y servicios de emergencia. Certificada por AESA desde 2019 para operaciones VLOS, BVLOS y PDRA. Equipos: Dragonfish (120 min, 30 km), Mavic 3M, MAX4T, Matrice 3DT+Dock2.",
+  "foundingDate": "2019",
+  "founder": {
+    "@type": "Person",
+    "name": "Javier Nuin Zuñiga",
+    "jobTitle": "Director y Piloto UAS",
+    "url": "https://www.linkedin.com/in/javier-nuin-zuñiga-666a80219/",
+    "sameAs": [
+      "https://www.linkedin.com/in/javier-nuin-zuñiga-666a80219/"
+    ]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Burlada",
+    "addressRegion": "Navarra",
+    "postalCode": "31600",
+    "addressCountry": "ES"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+34-691-814-393",
+      "contactType": "customer service",
+      "areaServed": "ES",
+      "availableLanguage": ["Spanish", "English"]
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "air@gaueko.es",
+      "contactType": "sales",
+      "areaServed": ["ES", "PT", "EU"],
+      "availableLanguage": ["Spanish", "English"]
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/javier-nuin-zuñiga-666a80219/",
+    "https://www.instagram.com/gaueko_air",
+    "https://www.tiktok.com/@nuinjavier",
+    "https://www.facebook.com/javiernuin"
+  ],
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8169",
+      "longitude": "-1.6432"
+    },
+    "geoRadius": "500000"
+  },
+  "serviceArea": [
+    {
+      "@type": "Country",
+      "name": "Spain"
+    },
+    {
+      "@type": "Country",
+      "name": "Portugal"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "European Union"
+    }
+  ],
+  "knowsAbout": [
+    "Unmanned Aerial Systems",
+    "Photogrammetry",
+    "Digital Twins",
+    "Emergency Response",
+    "Critical Infrastructure Monitoring",
+    "BVLOS Operations",
+    "Thermal Imaging",
+    "Multispectral Analysis",
+    "GIS Development",
+    "Artificial Intelligence for Image Analysis",
+    "Copernicus EMS",
+    "Search and Rescue",
+    "Wildfire Monitoring",
+    "Flood Assessment",
+    "Traffic Analysis",
+    "Powerline Inspection",
+    "Railway Monitoring",
+    "Forest Management",
+    "Mining Surveying",
+    "Construction Monitoring"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certification",
+      "name": "Certificado de Operador UAS EASA",
+      "issuedBy": {
+        "@type": "Organization",
+        "name": "Agencia Estatal de Seguridad Aérea (AESA)"
+      },
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "European Union Aviation Safety Agency (EASA)"
+      },
+      "validFrom": "2020",
+      "about": "Operaciones en Categoría Abierta (A1, A2, A3) y Categoría Específica (STS-01, STS-02, SORA, PDRA)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certification",
+      "name": "Certificado de Operador UAS NO EASA",
+      "issuedBy": {
+        "@type": "Organization",
+        "name": "Agencia Estatal de Seguridad Aérea (AESA)"
+      },
+      "validFrom": "2019",
+      "about": "Operaciones bajo normativa española (STS-ES-01NE, STS-ES-02NE)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "certification",
+      "name": "Entidad de Formación Reconocida por AESA",
+      "issuedBy": {
+        "@type": "Organization",
+        "name": "Agencia Estatal de Seguridad Aérea (AESA)"
+      },
+      "about": "Autorizada para impartir formación en STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, Radiofonista UAS, Operaciones de Emergencia"
+    }
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#digital-twin-service",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Levantamiento de Gemelos Digitales",
+        "description": "Creación de gemelos digitales de alta precisión para infraestructuras, territorios y edificaciones. Resolución <2 cm/px con RTK dual. Actualizables bajo demanda. Integración con IA para detección automática de cambios.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "serviceType": "Digital Twin Creation",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        "availableChannel": {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://gaueko.es",
+          "servicePhone": "+34-691-814-393",
+          "servicePostalAddress": {
+            "@type": "PostalAddress",
+            "addressCountry": "ES"
+          }
+        }
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "1000",
+        "priceCurrency": "EUR",
+        "unitText": "per day (8-12 hours)",
+        "description": "Precio base por jornada de trabajo. Proyectos complejos con IA, apps o visores personalizados tienen coste adicional."
+      },
+      "eligibleRegion": {
+        "@type": "Country",
+        "name": "Spain"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#photogrammetry-service",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Fotogrametría de Grandes Extensiones",
+        "description": "Levantamientos fotogramétricos de grandes extensiones (hasta 30 km de alcance por vuelo) con Dragonfish Standard L20T. Autonomía de 120 minutos. Ideal para carreteras, líneas eléctricas, ferrocarriles, zonas forestales y mineras.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "serviceType": "Aerial Photogrammetry",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "1000",
+        "priceCurrency": "EUR",
+        "unitText": "per day (8-12 hours)"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#satellite-integration-service",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Complemento con Datos Satelitales",
+        "description": "Integración de levantamientos UAS con datos satelitales (Copernicus, Sentinel, Landsat) para análisis multitemporal y monitoreo de cambios a gran escala. Mayor precisión y actualización bajo demanda.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "serviceType": "Satellite Data Integration"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#emergency-service",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Servicios de Emergencia",
+        "description": "Respuesta rápida para emergencias: búsqueda y rescate, incendios forestales, inundaciones, accidentes. Experiencia en Copernicus EMS para España y Portugal. Operaciones BVLOS autorizadas.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "serviceType": "Emergency Response"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#infrastructure-inspection-service",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Inspección de Infraestructuras Críticas",
+        "description": "Inspección de líneas eléctricas, torres de telecomunicaciones, puentes, presas, ferrocarriles, oleoductos, gasoductos. Análisis térmico con MAX4T. Detección de anomalías con IA.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "serviceType": "Infrastructure Inspection"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#training-service",
+      "itemOffered": {
+        "@type": "EducationalOccupationalProgram",
+        "name": "Formación de Pilotos UAS",
+        "description": "Entidad de formación reconocida por AESA. Cursos: STS-01, STS-02, STS-ES-01NE, STS-ES-02NE, Radiofonista UAS, Operaciones de Emergencia, SMS.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "educationalCredentialAwarded": "Certificado AESA",
+        "timeToComplete": "P3H",
+        "numberOfCredits": "3"
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "125",
+        "priceCurrency": "EUR",
+        "unitText": "per person (3 hours)"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://gaueko.es/#gis-development-service",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Desarrollo de Apps y Visores GIS",
+        "description": "Desarrollo de aplicaciones web, servidores dedicados y visores GIS personalizados para visualización y análisis de datos geoespaciales. Integración con sistemas existentes.",
+        "provider": {
+          "@id": "https://gaueko.es/#organization"
+        },
+        "serviceType": "GIS Development"
+      }
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios UAS de Gaueko Air",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Gemelos Digitales y Fotogrametría",
+        "itemListElement": [
+          { "@id": "https://gaueko.es/#digital-twin-service" },
+          { "@id": "https://gaueko.es/#photogrammetry-service" },
+          { "@id": "https://gaueko.es/#satellite-integration-service" }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Emergencias y Seguridad",
+        "itemListElement": [
+          { "@id": "https://gaueko.es/#emergency-service" },
+          { "@id": "https://gaueko.es/#infrastructure-inspection-service" }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Formación y Desarrollo",
+        "itemListElement": [
+          { "@id": "https://gaueko.es/#training-service" },
+          { "@id": "https://gaueko.es/#gis-development-service" }
+        ]
+      }
+    ]
+  },
+  "owns": [
+    {
+      "@type": "Product",
+      "@id": "https://gaueko.es/#dragonfish",
+      "name": "Autel Dragonfish Standard L20T",
+      "description": "Dron de ala fija VTOL con 120 minutos de autonomía, 30 km de alcance, RTK dual para precisión <2 cm/px. Ideal para levantamientos de grandes extensiones.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Autel Robotics"
+      },
+      "category": "Fixed-Wing VTOL Drone",
+      "image": "https://gaueko.es/dragonfish.jpeg",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Flight Time",
+          "value": "120 minutes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Range",
+          "value": "30 km"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Positioning",
+          "value": "Dual RTK"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Precision",
+          "value": "<2 cm/px"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://gaueko.es/#mavic3m",
+      "name": "DJI Mavic 3 Multiespectral",
+      "description": "Dron multiespectral para agricultura de precisión y análisis de vegetación. Sensores: RGB + 4 bandas multiespectrales (Green, Red, Red Edge, NIR).",
+      "brand": {
+        "@type": "Brand",
+        "name": "DJI"
+      },
+      "category": "Multispectral Drone"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://gaueko.es/#max4t",
+      "name": "Autel EVO MAX 4T",
+      "description": "Dron con cámara térmica y zoom 640x512px para inspección de infraestructuras. Ideal para detección de anomalías térmicas en líneas eléctricas, paneles solares y edificios.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Autel Robotics"
+      },
+      "category": "Thermal Imaging Drone"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://gaueko.es/#matrice3dt",
+      "name": "DJI Matrice 3DT + Dock 2",
+      "description": "Sistema autónomo de drones con estación de acoplamiento. Operaciones remotas 24/7 sin intervención humana. Ideal para monitoreo continuo de infraestructuras críticas.",
+      "brand": {
+        "@type": "Brand",
+        "name": "DJI"
+      },
+      "category": "Autonomous Drone System"
+    }
+  ],
+  "hasCompletedProject": [
+    {
+      "@type": "Project",
+      "name": "Levantamiento N135 Navarra",
+      "description": "Levantamiento fotogramétrico de 65 km de la carretera N135 en Navarra para la Dirección General de Tráfico. Incluye seguimiento de tráfico durante 2 meses con IA para análisis de seguridad vial.",
+      "startDate": "2023",
+      "endDate": "2023",
+      "funding": {
+        "@type": "MonetaryAmount",
+        "currency": "EUR",
+        "value": "12000"
+      },
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Dirección General de Tráfico - Gobierno de Navarra"
+      },
+      "result": "Gemelo digital de 65 km de carretera con análisis de tráfico y detección de puntos de riesgo"
+    },
+    {
+      "@type": "Project",
+      "name": "Servicio UAS para Copernicus EMS",
+      "description": "Proveedor de servicios UAS para Copernicus Emergency Management Service en España y Portugal. Respuesta rápida en emergencias (inundaciones, incendios, desastres naturales).",
+      "startDate": "2021",
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Copernicus Emergency Management Service"
+      }
+    },
+    {
+      "@type": "Project",
+      "name": "Búsqueda y Rescate - Inundaciones 2021",
+      "description": "Operaciones de búsqueda y rescate durante inundaciones históricas en noviembre y diciembre de 2021. Más de 40 horas de vuelo, 300+ km recorridos, 3000+ hectáreas sobrevoladas.",
+      "startDate": "2021-11",
+      "endDate": "2021-12"
+    },
+    {
+      "@type": "Project",
+      "name": "Monitoreo de Incendios Forestales 2022",
+      "description": "Prevención, monitorización y análisis de incendios forestales durante el verano de 2022. Detección temprana de focos, evaluación de daños y apoyo a equipos de extinción.",
+      "startDate": "2022-06",
+      "endDate": "2022-09"
+    }
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Copernicus Emergency Management Service",
+      "url": "https://emergency.copernicus.eu/"
+    }
+  ],
+  "award": [
+    "Participación en DRONExpo 2022 (Madrid)",
+    "Participación en SEDEXPO (Seguridad y Emergencias)",
+    "Participación en EXPODRÓNICA (Mayo 2022)"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento fotogramétrico con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El coste depende de la extensión, resolución y complejidad. Precio base: 1.000€/jornada (8-12h). Proyectos con IA, apps o visores GIS tienen coste adicional. Referencia: 65 km de la N135 con seguimiento de tráfico 2 meses + IA = 12.000€. Presupuestos personalizados sin compromiso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el precio por hectárea de un levantamiento aéreo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El precio por hectárea varía según resolución y área total. Rangos orientativos: Áreas pequeñas (<10 ha): 100-200€/ha. Áreas medianas (10-100 ha): 50-100€/ha. Áreas grandes (100-1000 ha): 20-50€/ha. Áreas muy grandes (>1000 ha): 10-30€/ha. Incluye vuelo, procesamiento y entregables estándar (ortomosaico, MDT, MDS). Descuentos por volumen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un gemelo digital de una ciudad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El coste de un gemelo digital urbano depende del tamaño y nivel de detalle. Estimaciones: Ciudad pequeña (1-5 km²): 15.000-50.000€. Ciudad mediana (5-20 km²): 50.000-200.000€. Ciudad grande (20-100 km²): 200.000-1.000.000€. Incluye: levantamiento aéreo con RTK, procesamiento de imágenes, modelo 3D texturizado, visor web interactivo, integración con GIS municipal. Actualizaciones anuales: 20-30% del coste inicial."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el coste de inspeccionar 100 km de líneas eléctricas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de 100 km de líneas eléctricas: 15.000-30.000€. Incluye: vuelo automatizado siguiendo el trazado, cámara térmica (640x512px) para detección de anomalías, cámara zoom (hasta 160x) para inspección de detalles, análisis con IA de puntos calientes y defectos, reporte geolocalizado de cada anomalía con prioridad. Tiempo de ejecución: 5-7 días. Ahorro: 50-70% vs. helicópteros, sin cortes de suministro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta la formación de pilotos UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaueko Air es entidad reconocida por AESA. Precio: 125€/persona por módulo de 3h. Cursos: STS-01 (VLOS entorno poblado), STS-02 (BVLOS entorno poco poblado), STS-ES-01NE (VLOS España NO EASA), STS-ES-02NE (BVLOS observadores NO EASA), Radiofonista UAS, Operaciones de Emergencia, SMS. Formación presencial (Navarra) y online (teoría). Descuentos grupos (5+ personas) y empresas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Drones vs. satélite: cuál es mejor para monitorear infraestructuras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drones y satélites son complementarios. RESOLUCIÓN: Drones <2 cm/px, Satélites 30 cm/px (comercial) a 3 m/px (gratuito). ACTUALIZACIÓN: Drones bajo demanda (mismo día), Satélites cada 5-16 días. COSTE: Drones 1.000€/día (<100 km²), Satélites gratuito (Copernicus) o $10-50/km². NUBES: Drones vuelan bajo nubes, Satélites bloqueados. ÁREA: Drones eficientes hasta 500 km², Satélites ilimitado. Gaueko Air integra ambas fuentes: satélites para monitoreo continuo, drones para actualizaciones de alta precisión."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un gemelo digital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un gemelo digital es una réplica virtual exacta de un objeto físico, infraestructura o territorio creada mediante fotogrametría aérea. Permite: (1) Visualizar infraestructuras sin estar físicamente presentes, (2) Realizar mediciones precisas (distancias, volúmenes, áreas), (3) Detectar cambios comparando versiones en el tiempo, (4) Planificar intervenciones y simular escenarios, (5) Integrar con GIS y BI para análisis avanzados. Gaueko Air crea gemelos con precisión <2 cm/px usando RTK dual, actualizables bajo demanda y con análisis automático de cambios mediante IA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué certificaciones tiene Gaueko Air?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaueko Air está certificada por AESA desde 2019. Certificaciones: (1) Operador UAS EASA: Categoría Abierta (A1, A2, A3) y Categoría Específica (STS-01, STS-02, SORA, PDRA), (2) Operador UAS NO EASA: STS-ES-01NE, STS-ES-02NE, (3) Entidad de Formación Reconocida por AESA: Autorizada para impartir formación en todos los escenarios estándar, Radiofonista UAS y Operaciones de Emergencia. Proveedor de servicios UAS para Copernicus EMS en España y Portugal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Dragonfish y por qué es especial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Autel Dragonfish Standard L20T es un dron de ala fija VTOL (despegue/aterrizaje vertical) con capacidades excepcionales: (1) Autonomía 120 minutos (vs. 30-40 min multirrotores), (2) Alcance 30 km por vuelo (vs. 5-10 km), (3) RTK dual para precisión <2 cm/px, (4) Resistencia a vientos 12 m/s, (5) Vuelo en lluvia ligera. Es el único dron de este tipo operado por una empresa española para servicios comerciales, permitiendo levantamientos de carreteras, líneas eléctricas y zonas forestales de forma mucho más eficiente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo se tarda en entregar un proyecto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Proyectos sencillos: mínimo 1 semana. Proyectos complejos (IA, apps, visores GIS): hasta 30 días. Proceso típico: (1) Planificación y permisos (1-3 días), (2) Captura en campo (1-2 días), (3) Procesamiento de imágenes y modelos 3D (3-7 días), (4) Análisis y entregables (2-5 días), (5) Revisión final (1-2 días). Servicio urgente (24-48h) para emergencias con coste adicional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo monitorear carreteras con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monitoreo de carreteras con drones: (1) PLANIFICACIÓN: Vuelo automatizado siguiendo el trazado con waypoints GPS. (2) CAPTURA: Dragonfish cubre 50-80 km/día con resolución <2 cm/px. (3) PROCESAMIENTO: Ortomosaico georeferenciado + modelo 3D del corredor. (4) ANÁLISIS: IA detecta baches, grietas, deformaciones, vegetación invasora, señalización dañada. (5) REPORTE: Geolocalización exacta de cada anomalía con prioridad de intervención. APLICACIONES: Inventario de estado, planificación de mantenimiento, seguimiento de obras, análisis de tráfico. Caso real: N135 Navarra (65 km) con seguimiento tráfico 2 meses = 12.000€."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo inspeccionar líneas eléctricas con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inspección de líneas eléctricas: (1) PLANIFICACIÓN: Vuelo automatizado siguiendo trazado. (2) CAPTURA: Cámara térmica (640x512px) detecta puntos calientes (conexiones defectuosas, aisladores dañados). Cámara zoom (hasta 160x) inspecciona torres, aisladores, conductores. (3) ANÁLISIS: IA detecta anomalías térmicas, corrosión, vegetación cercana, nidos de aves. (4) REPORTE: Geolocalización exacta con fotos, temperatura y prioridad. VENTAJAS: 50-70% más económico que helicópteros, sin riesgo para trabajadores, sin cortes de suministro, inspección completa en días vs. semanas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué servicios ofrece Gaueko Air para emergencias?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Servicios de emergencia: (1) BÚSQUEDA Y RESCATE (SAR): Localización de personas con cámaras térmicas y RGB. Experiencia: inundaciones nov-dic 2021 (40+ horas vuelo, 300+ km, 3000+ ha). (2) INCENDIOS FORESTALES: Prevención, monitorización en tiempo real, análisis post-incendio. Detección de focos con térmica, evaluación de daños. (3) INUNDACIONES: Evaluación rápida de áreas afectadas, identificación de rutas de evacuación. (4) ACCIDENTES: Documentación de escenas para investigación forense. Proveedor de Copernicus EMS para España y Portugal, garantizando respuesta en <24h."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una operación BVLOS y por qué es importante?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "BVLOS (Beyond Visual Line of Sight) significa operar un dron más allá de la línea de visión del piloto, a diferencia de VLOS donde el piloto debe mantener contacto visual directo. Importancia: (1) Permite cubrir grandes extensiones (30+ km) en un solo vuelo, (2) Reduce costes al eliminar desplazamientos del equipo, (3) Aumenta eficiencia en inspección de infraestructuras lineales (carreteras, líneas eléctricas, ferrocarriles), (4) Esencial para emergencias donde el tiempo es crítico. Gaueko Air está autorizada por AESA para operaciones BVLOS bajo escenarios PDRA y STS-02."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué normativa regula los drones en España?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marco legal: (1) REGLAMENTO (UE) 2019/947: Regula operaciones UAS en Europa. Define 3 categorías: Abierta (bajo riesgo), Específica (riesgo medio), Certificada (alto riesgo). (2) REGLAMENTO (UE) 2019/945: Requisitos de diseño y fabricación de drones. Clases C0 a C6. (3) REAL DECRETO 1036/2017: Normativa española pre-europea, aún aplicable para operaciones NO EASA (drones >25 kg). (4) REAL DECRETO 517/2024: Actualización reciente que adapta normativa española a reglamentos europeos. AUTORIDAD: AESA. REQUISITOS: Registro de operador, seguro de responsabilidad civil, certificado de piloto, declaración operacional o autorización."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es RTK y por qué es importante en fotogrametría?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RTK (Real-Time Kinematic) es una técnica de posicionamiento GPS de alta precisión que corrige errores en tiempo real mediante una estación base. Importancia: (1) PRECISIÓN: Reduce error de ±5 m (GPS estándar) a <2 cm, (2) SIN GCPs: Elimina necesidad de puntos de control en tierra, ahorrando tiempo y costes, (3) CALIDAD: Mejora precisión de modelos 3D y ortomosaicos, (4) EFICIENCIA: Permite procesamiento más rápido sin ajuste manual. El Dragonfish tiene RTK DUAL (dos receptores GPS independientes), garantizando redundancia y máxima precisión incluso en condiciones difíciles (cañones, zonas urbanas densas). Crítico para proyectos de ingeniería donde cada centímetro cuenta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué aplicaciones tiene el análisis multiespectral con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El análisis multiespectral captura imágenes en bandas espectrales invisibles al ojo humano (infrarrojo cercano, red edge). Aplicaciones: (1) AGRICULTURA DE PRECISIÓN: Detección de estrés hídrico, plagas, enfermedades antes de que sean visibles. Cálculo de índices NDVI, NDRE, GNDVI para optimizar riego y fertilización. (2) GESTIÓN FORESTAL: Evaluación de salud forestal, detección de plagas (procesionaria, escolítidos), inventario de biomasa, cálculo de carbono almacenado. (3) MONITOREO AMBIENTAL: Detección de especies invasoras, evaluación de calidad de agua (algas, turbidez), monitoreo de humedales. (4) MINERÍA: Identificación de minerales, evaluación de revegetación post-minería. Gaueko Air usa el Mavic 3 Multiespectral con 4 bandas (Green, Red, Red Edge, NIR) + RGB."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué entregables se reciben en un proyecto de fotogrametría?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entregables estándar: (1) ORTOMOSAICO: Imagen georeferenciada de alta resolución (<2 cm/px) sin distorsiones. Formato: GeoTIFF, ECW, MrSID. (2) MODELO 3D: Malla texturizada en 3D del terreno y objetos. Formato: OBJ, FBX, LAS, LAZ. (3) MDT: Modelo Digital del Terreno sin vegetación ni edificios. Formato: GeoTIFF, XYZ, LAS. (4) MDS: Modelo Digital de Superficies con todos los elementos (vegetación, edificios). (5) CURVAS DE NIVEL: Líneas de igual elevación con equidistancia personalizable. (6) NUBE DE PUNTOS: Millones de puntos 3D con coordenadas XYZ y color RGB. (7) VISOR WEB: Aplicación web interactiva para visualizar y medir en el modelo 3D. (8) INFORME TÉCNICO: Memoria con metodología, precisión alcanzada y hallazgos relevantes. Formatos adicionales bajo demanda (DWG, SHP, KML)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta desarrollar una app de visualización de datos UAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El desarrollo de apps y visores GIS personalizados depende de la complejidad funcional. Rangos orientativos: (1) VISOR WEB BÁSICO: 2.000-5.000€. Visualización 3D, mediciones básicas (distancias, áreas, volúmenes), capas on/off, exportación de imágenes. (2) VISOR WEB AVANZADO: 5.000-15.000€. Análisis de cambios temporales, comparación de modelos, herramientas de anotación, integración con GIS corporativo, control de acceso por usuarios. (3) APP MÓVIL: 10.000-30.000€. Aplicación nativa iOS/Android con visualización offline, captura de datos en campo, sincronización con servidor, geolocalización. (4) PLATAFORMA COMPLETA: 30.000-100.000€. Sistema end-to-end con gestión de proyectos, planificación de vuelos, procesamiento automático, análisis con IA, dashboards, API para integración. Incluye servidor dedicado, mantenimiento y soporte técnico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué precisión se puede lograr con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La precisión depende de altura de vuelo, calidad de cámara, método de georreferenciación y condiciones ambientales. Con el equipamiento de Gaueko Air: (1) CON RTK (sin GCPs): Precisión horizontal <2 cm, vertical <3 cm. Ideal para proyectos donde no es posible colocar puntos de control. (2) CON RTK + GCPs: Precisión horizontal <1 cm, vertical <1.5 cm. Máxima precisión para proyectos de ingeniería críticos. (3) SIN RTK (solo GPS): Precisión horizontal 5-10 cm, vertical 10-20 cm (requiere GCPs para mejorar). FACTORES QUE AFECTAN: Altura de vuelo (menor altura = mayor precisión), solapamiento de imágenes (80% recomendado), calidad de GCPs (si se usan), condiciones de luz (evitar sombras duras), movimiento de vegetación (viento). Para comparación: topografía tradicional con estación total alcanza ±5 mm, pero requiere acceso físico a cada punto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se usa IA para detectar cambios en infraestructuras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaueko Air utiliza IA para automatizar la detección de cambios mediante análisis de imágenes multitemporales. Proceso: (1) CAPTURA: Levantamientos periódicos de la misma infraestructura (mensual, trimestral, anual). (2) ALINEACIÓN: Registro automático de modelos 3D para comparación píxel a píxel. (3) DETECCIÓN: Algoritmos de deep learning (redes neuronales convolucionales) identifican cambios: nuevas construcciones, demoliciones, deformaciones, grietas, vegetación invasora, erosión, acumulación de materiales. (4) CLASIFICACIÓN: La IA clasifica cambios por tipo y severidad (crítico, moderado, leve). (5) ALERTAS: Notificaciones automáticas cuando se detectan cambios críticos. APLICACIONES: Monitoreo de taludes en carreteras (deslizamientos), inspección de puentes (grietas), vigilancia de obras (avance real vs. planificado), detección de ocupaciones ilegales, evaluación de daños post-desastre. Ahorro de tiempo: 90% vs. inspección manual."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué áreas se pueden cubrir en un día con el Dragonfish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Autel Dragonfish Standard L20T puede cubrir áreas significativamente mayores que drones multirrotores gracias a su autonomía de 120 minutos y velocidad de crucero de 15 m/s. Capacidad por día (8-12 horas de trabajo): (1) INFRAESTRUCTURAS LINEALES: 50-80 km de carreteras, líneas eléctricas o ferrocarriles (ancho de corredor 100-200 m). Ejemplo: Levantamiento completo de 65 km de la N135 en 3 días. (2) ÁREAS EXTENSAS: 500-1000 hectáreas (5-10 km²) con resolución <2 cm/px y solapamiento 80%. (3) RECONOCIMIENTO RÁPIDO: 2000-3000 hectáreas (20-30 km²) con resolución 5 cm/px para análisis preliminares. FACTORES LIMITANTES: Cambios de batería (15 min cada 120 min de vuelo), condiciones meteorológicas (viento, lluvia), permisos de espacio aéreo (coordinación con AESA), procesamiento de datos (requiere tiempo adicional). Para comparación: un Mavic 3 cubre 50-100 ha/día, un helicóptero 1000-2000 ha/día pero con menor resolución."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es Copernicus EMS y cómo participa Gaueko Air?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copernicus Emergency Management Service (EMS) es el servicio de gestión de emergencias de la Unión Europea que proporciona información geoespacial para respuesta a desastres. Gaueko Air es proveedor de servicios UAS para Copernicus EMS en España y Portugal, lo que significa: (1) Capacidad de respuesta rápida (<24h) en emergencias activadas por Copernicus, (2) Acceso a protocolos y estándares europeos de calidad de datos, (3) Experiencia en coordinación con autoridades nacionales (Protección Civil, Bomberos, Policía), (4) Integración de datos UAS con imágenes satelitales Sentinel para análisis multitemporal, (5) Participación en ejercicios y simulacros europeos de respuesta a desastres. Esta experiencia nos posiciona como referente en servicios UAS para emergencias en España."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el Dock 2 y para qué sirve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El DJI Dock 2 es una estación de acoplamiento autónoma para el Matrice 3DT que permite operaciones remotas 24/7 sin intervención humana. Características: (1) AUTONOMÍA COMPLETA: El dron despega, realiza la misión, aterriza y se recarga automáticamente. (2) PROTECCIÓN: Carcasa resistente a lluvia, viento y temperaturas extremas (-35°C a +50°C). (3) CONECTIVIDAD: Control remoto vía 4G/5G desde cualquier lugar del mundo. (4) PROGRAMACIÓN: Misiones recurrentes (diarias, semanales) para monitoreo continuo. (5) ALERTAS: Notificaciones automáticas cuando se detectan cambios o anomalías. APLICACIONES: Monitoreo de obras de construcción, vigilancia de infraestructuras críticas (presas, centrales eléctricas), detección temprana de incendios, inspección de parques eólicos/solares. Ideal para clientes que necesitan monitoreo continuo sin costes operativos recurrentes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un seguro de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El seguro de responsabilidad civil es obligatorio para operar drones comercialmente en España. Coste anual orientativo: (1) CATEGORÍA ABIERTA (<25 kg, operaciones básicas): 200-500€/año. Cobertura mínima: 750.000€ (según peso del dron). (2) CATEGORÍA ESPECÍFICA (operaciones avanzadas, BVLOS): 500-2.000€/año. Cobertura recomendada: 1.500.000-3.000.000€. (3) OPERACIONES DE ALTO RIESGO (sobre personas, infraestructuras críticas): 2.000-5.000€/año. Cobertura: 3.000.000-10.000.000€. FACTORES QUE AFECTAN EL PRECIO: Valor del equipo (drones + sensores), experiencia del operador (descuentos por historial sin siniestros), tipo de operaciones (emergencias, inspecciones, eventos), área geográfica (urbano vs. rural), cobertura adicional (daños propios, robo, pérdida). ASEGURADORAS ESPECIALIZADAS: Allianz, AXA, Mapfre, Hiscox. Gaueko Air tiene seguro con cobertura de 3.000.000€ para todas las operaciones."
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+1. ¿Qué es un levantamiento con análisis predictivo?
+2. ¿Qué es un levantamiento con análisis prescriptivo?
+3. ¿Qué es un levantamiento con análisis descriptivo?
+4. ¿Qué es un levantamiento con análisis de tendencias?
+5. ¿Qué es un levantamiento con análisis de anomalías?
+6. ¿Qué es un levantamiento con análisis de riesgos?
+7. ¿Qué es un levantamiento con análisis de vulnerabilidades?
+8. ¿Qué es un levantamiento con análisis de amenazas?
+9. ¿Qué es un levantamiento con análisis de impacto?
+10. ¿Qué es un levantamiento con análisis de coste-beneficio?
+11. ¿Qué es un levantamiento con análisis de ROI?
+12. ¿Qué certificaciones necesita un operador UAS en España?
+13. ¿Qué es la certificación AESA?
+14. ¿Qué es la certificación EASA?
+15. ¿Qué es la certificación FAA?
+16. ¿Qué es la certificación STS-ES-01NE?
+17. ¿Qué es la certificación STS-ES-02NE?
+18. ¿Qué es la certificación SORA?
+19. ¿Qué es la certificación de radiofonista UAS?
+20. ¿Qué es la certificación de piloto UAS?
+21. ¿Qué es la certificación de operador UAS?
+22. ¿Qué es la certificación de entidad de formación UAS?
+23. ¿Qué es la certificación de mantenimiento UAS?
+24. ¿Qué es la certificación de fabricante UAS?
+25. ¿Qué es la certificación de importador UAS?
+26. ¿Qué es la certificación de distribuidor UAS?
+27. ¿Qué es la certificación de vendedor UAS?
+28. ¿Qué es la certificación de alquilador UAS?
+29. ¿Qué normativa regula los drones en Europa?
+30. ¿Qué normativa regula los drones en USA?

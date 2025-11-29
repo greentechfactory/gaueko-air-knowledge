@@ -1,0 +1,30 @@
+1. ¿Qué drones son mejores para condiciones meteorológicas adversas?
+2. ¿Qué drones son mejores para zonas de difícil acceso?
+3. ¿Qué drones son mejores para zonas urbanas densas?
+4. ¿Qué drones son mejores para zonas rurales?
+5. ¿Qué drones son mejores para zonas montañosas?
+6. ¿Qué drones son mejores para zonas desérticas?
+7. ¿Qué drones son mejores para zonas polares?
+8. ¿Qué drones son mejores para zonas tropicales?
+9. ¿Qué software es mejor para procesar imágenes de drones?
+10. ¿Qué software es mejor para crear gemelos digitales?
+11. ¿Qué software es mejor para análisis multiespectral?
+12. ¿Qué software es mejor para análisis térmico?
+13. ¿Qué software es mejor para análisis de cambios?
+14. ¿Qué software es mejor para crear modelos 3D?
+15. ¿Qué software es mejor para crear ortomosaicos?
+16. ¿Qué software es mejor para crear MDT/MDS?
+17. ¿Qué software es mejor para análisis GIS?
+18. ¿Qué software es mejor para visualización de datos UAS?
+19. ¿Qué formato de datos es mejor para gemelos digitales?
+20. ¿Qué formato de datos es mejor para integración con GIS?
+21. ¿Qué formato de datos es mejor para análisis con IA?
+22. ¿Qué formato de datos es mejor para compartir con clientes?
+23. ¿Qué formato de datos es mejor para almacenamiento a largo plazo?
+24. ¿Qué resolución se puede lograr con drones?
+25. ¿Qué área se puede cubrir en un día con drones?
+26. ¿Qué tiempo se tarda en procesar datos de drones?
+27. ¿Qué tiempo se tarda en entregar un proyecto con drones?
+28. ¿Qué servicios ofrece una operadora UAS?
+29. ¿Qué es un análisis térmico?
+30. ¿Qué es un análisis NDVI?

@@ -1,0 +1,30 @@
+1. ¿Cómo usar drones en operaciones de seguridad?
+2. ¿Cómo hacer inventario forestal con drones?
+3. ¿Cómo detectar plagas forestales con drones?
+4. ¿Cómo detectar enfermedades forestales con drones?
+5. ¿Cómo monitorear salud forestal con drones?
+6. ¿Cómo planificar aprovechamientos forestales con drones?
+7. ¿Cómo certificar FSC con drones?
+8. ¿Cómo detectar talas ilegales con drones?
+9. ¿Cómo monitorear reforestación con drones?
+10. ¿Cómo evaluar biomasa forestal con drones?
+11. ¿Cómo calcular carbono almacenado con drones?
+12. ¿Qué es el Dragonfish de Autel?
+13. ¿Qué es el Mavic 3 Multiespectral de DJI?
+14. ¿Qué es el Autel MAX 4T?
+15. ¿Qué es el Matrice 3DT de DJI?
+16. ¿Qué es el Dock 2 de DJI?
+17. ¿Qué autonomía tiene el Dragonfish?
+18. ¿Qué alcance tiene el Dragonfish?
+19. ¿Qué sensores tiene el Dragonfish?
+20. ¿Qué precisión tiene el Dragonfish?
+21. ¿Qué velocidad tiene el Dragonfish?
+22. ¿Qué peso puede cargar el Dragonfish?
+23. ¿Qué condiciones meteorológicas soporta el Dragonfish?
+24. ¿Qué es RTK en drones?
+25. ¿Qué es PPK en drones?
+26. ¿Qué es GCP en drones?
+27. ¿Qué es IMU en drones?
+28. ¿Qué es GPS en drones?
+29. ¿Qué es GNSS en drones?
+30. ¿Qué es Galileo en drones?

@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta un levantamiento topográfico con drones por kilómetro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El coste por kilómetro de un levantamiento topográfico lineal (carreteras, líneas eléctricas, ferrocarriles) varía según el ancho del corredor y la resolución requerida. Rangos orientativos: (1) CORREDOR ESTRECHO (50-100 m de ancho): 150-300€/km con resolución <2 cm/px. Ideal para inspección de líneas eléctricas, oleoductos, gasoductos. (2) CORREDOR MEDIO (100-200 m de ancho): 300-500€/km. Ideal para carreteras, ferrocarriles, canales. (3) CORREDOR AMPLIO (200-500 m de ancho): 500-1.000€/km. Ideal para autopistas, zonas de protección ambiental. FACTORES QUE AFECTAN EL PRECIO: Accesibilidad (zonas remotas requieren más logística), orografía (terreno montañoso requiere más vuelos), vegetación (bosque denso dificulta procesamiento), permisos (espacio aéreo controlado requiere coordinación con AESA). El Dragonfish de Gaueko Air permite cubrir 50-80 km/día, reduciendo costes significativamente vs. drones multirrotores. Caso real: N135 Navarra (65 km, corredor 150 m) = 185€/km incluyendo seguimiento de tráfico 2 meses con IA."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué diferencia hay entre un dron de ala fija y un multirrotor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Diferencias clave: (1) AUTONOMÍA: Ala fija 60-120 min (Dragonfish), Multirrotor 20-40 min (Mavic 3). (2) VELOCIDAD: Ala fija 15-25 m/s, Multirrotor 5-15 m/s. (3) DESPEGUE/ATERRIZAJE: Ala fija requiere pista o VTOL, Multirrotor despega verticalmente. (4) MANIOBRABILIDAD: Ala fija limitada, Multirrotor alta (puede volar estático). (5) ÁREA CUBIERTA: Ala fija 500-1000 ha/día, Multirrotor 50-100 ha/día. (6) APLICACIONES: Ala fija ideal para grandes extensiones lineales (carreteras, líneas eléctricas, costas), Multirrotor ideal para áreas pequeñas con obstáculos (puentes, torres, edificios). El Dragonfish de Gaueko Air es VTOL (ala fija con despegue vertical), combinando lo mejor de ambos mundos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un GCP (Ground Control Point) y cuándo se necesita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un GCP (Ground Control Point) es un punto en el terreno con coordenadas conocidas con alta precisión (medidas con GPS RTK o estación total) que se usa para georreferenciar modelos fotogramétricos. ¿CUÁNDO SE NECESITA? (1) SIN RTK: Obligatorio para alcanzar precisión <10 cm. Mínimo 5 GCPs por proyecto. (2) CON RTK: Opcional. RTK ya proporciona precisión <2 cm sin GCPs. GCPs adicionales pueden mejorar a <1 cm para proyectos críticos. (3) TERRENO PLANO: Menos GCPs necesarios (5-10). (4) TERRENO MONTAÑOSO: Más GCPs necesarios (10-20) distribuidos en diferentes elevaciones. COLOCACIÓN: Deben ser visibles desde el aire (dianas de 50x50 cm), distribuidos uniformemente, medidos con GPS RTK (precisión <2 cm). COSTE: 50-100€ por GCP (material + medición). Gaueko Air usa RTK dual en todos los equipos, eliminando necesidad de GCPs en el 90% de proyectos, ahorrando tiempo y costes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se calcula el volumen de tierra movida con drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cálculo de volúmenes de tierra movida mediante fotogrametría: (1) LEVANTAMIENTO INICIAL: Vuelo fotogramétrico antes de iniciar obras. Genera MDT (Modelo Digital del Terreno) del estado inicial. (2) LEVANTAMIENTOS PERIÓDICOS: Vuelos semanales o mensuales durante la obra. (3) COMPARACIÓN: Software GIS compara MDT inicial vs. actual, calculando diferencias de elevación en cada punto. (4) CÁLCULO: Suma de volúmenes de corte (excavación) y relleno (aporte de tierras). Fórmula: V = Σ(ΔZ × Área_celda). (5) REPORTE: Certificación de volúmenes para pagos a contratistas. PRECISIÓN: ±2-5% con RTK (vs. ±10-15% con métodos tradicionales). APLICACIONES: Movimientos de tierras en carreteras, presas, canteras, minas, vertederos. VENTAJAS: Medición completa (vs. perfiles discretos), sin interferir con obras, documentación visual para disputas, histórico de evolución. Gaueko Air proporciona certificados de volúmenes con precisión <2 cm vertical, aceptados por ingenierías y administraciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el NDVI y para qué sirve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDVI (Normalized Difference Vegetation Index) es un índice que mide la salud y vigor de la vegetación mediante análisis multiespectral. Fórmula: NDVI = (NIR - Red) / (NIR + Red), donde NIR es infrarrojo cercano y Red es rojo visible. RANGO: -1 a +1. Valores típicos: (1) <0: Agua, nieve, nubes. (2) 0-0.2: Suelo desnudo, roca, asfalto. (3) 0.2-0.4: Vegetación escasa o estresada. (4) 0.4-0.6: Vegetación moderada. (5) 0.6-0.8: Vegetación densa y saludable. (6) >0.8: Vegetación muy densa (bosques tropicales). APLICACIONES: (1) AGRICULTURA: Detección de estrés hídrico, plagas, enfermedades antes de que sean visibles. Optimización de riego y fertilización. (2) GESTIÓN FORESTAL: Evaluación de salud forestal, detección de plagas (procesionaria, escolítidos), cálculo de biomasa. (3) MONITOREO AMBIENTAL: Seguimiento de revegetación post-minería, evaluación de impacto de incendios, detección de especies invasoras. Gaueko Air usa el Mavic 3 Multiespectral con 4 bandas (Green, Red, Red Edge, NIR) para calcular NDVI, NDRE, GNDVI y otros índices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuántas imágenes se capturan en un levantamiento fotogramétrico típico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El número de imágenes depende del área, altura de vuelo, resolución y solapamiento. Cálculo aproximado: Imágenes = (Área / Cobertura_por_imagen) × Factor_solapamiento. EJEMPLOS: (1) PROYECTO PEQUEÑO (10 ha, altura 80 m, resolución 2 cm/px, solapamiento 80%): ~500-800 imágenes. (2) PROYECTO MEDIANO (100 ha, altura 100 m, resolución 3 cm/px): ~2.000-3.000 imágenes. (3) PROYECTO GRANDE (1.000 ha, altura 120 m, resolución 5 cm/px): ~10.000-15.000 imágenes. (4) INFRAESTRUCTURA LINEAL (50 km de carretera, corredor 150 m): ~5.000-8.000 imágenes. PROCESAMIENTO: Software fotogramétrico (Pix4D, Metashape, DroneDeploy) procesa todas las imágenes automáticamente mediante algoritmos de Structure from Motion (SfM). Tiempo de procesamiento: 1-3 horas por cada 1.000 imágenes en workstation potente (GPU NVIDIA RTX, 64 GB RAM). ALMACENAMIENTO: 5-10 MB por imagen (JPEG) o 20-30 MB (RAW). Proyecto de 10.000 imágenes = 50-300 GB. Gaueko Air usa servidores dedicados con GPUs para procesamiento rápido y almacenamiento en la nube para acceso remoto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué permisos se necesitan para volar drones comercialmente en España?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Permisos y requisitos para operaciones comerciales UAS en España: (1) REGISTRO DE OPERADOR: Obligatorio en AESA. Renovación anual. Coste: Gratuito. (2) CERTIFICADO DE PILOTO: Según categoría de operación. Categoría Abierta: Certificado A1/A2/A3 (examen online AESA). Categoría Específica: Certificado específico (curso presencial + examen). (3) SEGURO DE RESPONSABILIDAD CIVIL: Obligatorio. Cobertura mínima según peso del dron (750.000-3.000.000€). (4) DECLARACIÓN OPERACIONAL o AUTORIZACIÓN: Categoría Específica requiere declarar operaciones ante AESA (STS) o solicitar autorización (PDRA, SORA). (5) MANUAL DE OPERACIONES: Documento que describe procedimientos, evaluación de riesgos, medidas de mitigación. (6) PERMISOS DE ESPACIO AÉREO: Operaciones en zonas controladas (CTR, ATZ) requieren autorización de AESA o proveedor de servicios de tránsito aéreo. (7) PERMISOS MUNICIPALES: Despegue/aterrizaje en espacios públicos puede requerir permiso del ayuntamiento. (8) PERMISOS DE SOBREVUELO: Sobrevolar propiedades privadas requiere consentimiento del propietario (salvo emergencias). Gaueko Air gestiona todos los permisos necesarios para cada proyecto, incluyendo coordinación con AESA, ayuntamientos y propietarios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se puede volar drones de noche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vuelos nocturnos con drones en España: (1) CATEGORÍA ABIERTA: Prohibido volar de noche (desde puesta de sol hasta amanecer) salvo que el dron tenga luces de navegación y el piloto haya completado formación adicional. (2) CATEGORÍA ESPECÍFICA: Permitido con autorización de AESA. Requiere: Evaluación de riesgos específica para vuelos nocturnos, luces de navegación (estroboscópicas visibles a 3 km), iluminación adicional si se requiere mantener VLOS, procedimientos de emergencia adaptados, formación del piloto en operaciones nocturnas. (3) APLICACIONES: Búsqueda y rescate (cámaras térmicas detectan personas en oscuridad), inspección de infraestructuras (sin interrumpir tráfico diurno), vigilancia y seguridad, monitoreo de fauna nocturna, eventos nocturnos (conciertos, deportes). VENTAJAS: Menor tráfico aéreo, condiciones meteorológicas más estables (menos viento), menor impacto en actividades diurnas. DESVENTAJAS: Mayor riesgo de colisión con obstáculos, dificultad para mantener VLOS, limitaciones de cámaras RGB (requieren iluminación o térmica). Gaueko Air está autorizada para operaciones nocturnas en categoría específica, con equipos que incluyen cámaras térmicas de alta resolución (640x512px) y luces de navegación."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es un vuelo automatizado y cómo funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vuelo automatizado (o autónomo) es cuando el dron sigue una ruta preprogramada sin intervención manual del piloto. Funcionamiento: (1) PLANIFICACIÓN: Software de planificación de vuelos (DJI Pilot, Pix4Dcapture, UgCS) permite definir: Área a cubrir o ruta a seguir, altura de vuelo, velocidad, solapamiento de imágenes, ángulo de cámara, waypoints (puntos de paso). (2) CARGA: La misión se carga en el dron antes del despegue. (3) EJECUCIÓN: El piloto inicia la misión. El dron despega automáticamente, sigue la ruta programada, captura imágenes en intervalos regulares, evita obstáculos (si tiene sensores), regresa al punto de inicio y aterriza automáticamente. (4) SUPERVISIÓN: El piloto supervisa el vuelo en tiempo real, puede pausar o abortar si es necesario. VENTAJAS: (1) PRECISIÓN: Cobertura completa sin áreas faltantes. (2) REPETIBILIDAD: Misiones idénticas para comparación multitemporal. (3) EFICIENCIA: El piloto puede preparar la siguiente misión mientras el dron vuela. (4) SEGURIDAD: Reduce errores humanos. APLICACIONES: Fotogrametría, inspección de infraestructuras lineales, agricultura de precisión, monitoreo ambiental. Gaueko Air usa vuelos automatizados en el 95% de proyectos, garantizando calidad y eficiencia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software se usa para procesar imágenes de drones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Software fotogramétrico profesional: (1) PIX4DMAPPER: Líder del mercado. Procesamiento automático de imágenes a ortomosaicos, modelos 3D, nubes de puntos, MDT/MDS. Soporte RTK/PPK. Precio: ~3.500€/año. (2) AGISOFT METASHAPE: Alternativa potente y más económica. Excelente calidad de reconstrucción 3D. Precio: ~3.000€ (licencia perpetua). (3) DRONEDEPLOY: Plataforma cloud. Procesamiento automático, visor web, análisis de cambios. Ideal para seguimiento de obras. Precio: ~300€/mes. (4) WEBODM: Open source y gratuito. Basado en OpenDroneMap. Requiere conocimientos técnicos. (5) QGIS: Software GIS gratuito para análisis posterior (mediciones, cálculo de volúmenes, análisis espacial). (6) GLOBAL MAPPER: GIS comercial con herramientas avanzadas de análisis de terreno. Precio: ~500€. (7) AUTOCAD CIVIL 3D: Para integración con proyectos de ingeniería civil. Precio: ~2.000€/año. HARDWARE REQUERIDO: Workstation potente con GPU NVIDIA (RTX 3080 o superior), 64 GB RAM mínimo, SSD NVMe para almacenamiento rápido. Gaueko Air usa Pix4D y Metashape para procesamiento, QGIS para análisis y desarrolla visores web personalizados con Three.js y Cesium."
+      }
+    }
+  ]
+}
